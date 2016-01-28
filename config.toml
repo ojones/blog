@@ -1,4 +1,4 @@
-baseurl = "http://ojones.github.io/blog"
+baseurl = "http://ojones.github.io/blog/"
 languageCode = "en-us"
 title = "Oswald Jones Pro"
 theme = "hyde"
