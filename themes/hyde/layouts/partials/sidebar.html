@@ -12,8 +12,16 @@
       {{ range .Site.Menus.main }}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
+      <br/>
+      {{with .Site.Menus.code}}
+      <li>Code:</li>
+        {{ range . }}
+          <li><a href="{{.Url}}">{{ .Name }} </a></li>
+        {{end}}
+      {{end}}
     </ul>
+      {{ with .Site.Params.github }}<a href="{{.}}"><i class="fa fa-github-square"></i></a>&nbsp;&nbsp;{{end}}
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p class="footnote">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}} Oswald Jones. All rights reserved. {{end}}</p>
   </div>
 </div>

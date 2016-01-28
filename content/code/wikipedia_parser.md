@@ -1,6 +1,6 @@
 +++
 date = "2015-10-02T19:25:22-08:00"
-title = "The best wikipedia parser out there"
+title = "best wikipedia parser"
 menu = "code"
 vanity = "https://github.com/ojones/wikipedia_parser"
 

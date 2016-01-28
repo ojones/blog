@@ -1,0 +1,111 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.15" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> best html table parser &middot; Oswald Jones </title>
+
+  
+  <link rel="stylesheet" href="http://ojones.github.io/blog/css/poole.css">
+  <link rel="stylesheet" href="http://ojones.github.io/blog/css/syntax.css">
+  <link rel="stylesheet" href="http://ojones.github.io/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Oswald Jones" />
+</head>
+
+	<body class="">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://ojones.github.io/blog/"><h1>Oswald Jones</h1></a>
+      <p class="lead">
+       --version pro 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+        <li><a href="/blog/about/"> About </a></li>
+      
+      <br/>
+      
+      <li>Code:</li>
+        
+          <li><a href="
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>best html table parser</h1>
+			  <span class="post-date">Fri, Oct 2, 2015</span>
+			      
+
+<h2 id="synopsis:2e8e527b21ef2deedced2078cd8e4e6a">Synopsis</h2>
+
+<p>Transform html tables into usable data structures.  Using beautiful soup table object, return 2D array structure, dictionary, or array of column data.  Imputes cell values from row and col spans :)</p>
+
+<h2 id="code-example:2e8e527b21ef2deedced2078cd8e4e6a">Code Example</h2>
+
+<p>Given an html table (with or without row and col spans). You can make a 2D array</p>
+
+<pre><code class="language-python">soup = bs(YOUR_HTML_TABLE, &quot;html.parser&quot;)
+test_table = soup.find('table')
+twod_array = parse.make2d(test_table)
+
+# print 2D array
+print(twod_array)
+</code></pre>
+
+<p>Use that 2D array to return column data by heading name</p>
+
+<pre><code class="language-python"># print column data by col heading name (case insensitive)
+print(parse.twod_col_data(twod_array, 'first name'))
+print(parse.twod_col_data(twod_array, 'lAst naMe'))
+</code></pre>
+
+<p>Or transform the soup table object (test_table) into a dictionary</p>
+
+<pre><code class="language-python"># row data begins on first row after col headings
+# so rowstart is 1
+print(parse.make_dict(test_table, 1))
+</code></pre>
+
+<h2 id="motivation:2e8e527b21ef2deedced2078cd8e4e6a">Motivation</h2>
+
+<p>I looked everywhere for the code to transform html tables with row and col spans into a 2D array and couldn&rsquo;t find it.  So I thought how hard could it be to quickly write my own.  It was actally kinda hard, so here it is for the next guy.</p>
+
+<h2 id="installation:2e8e527b21ef2deedced2078cd8e4e6a">Installation</h2>
+
+<p>So far html_table_parser is just a module with parser functions.  It works on Python 2.7 and Python 3.4.</p>
+
+<h2 id="tests:2e8e527b21ef2deedced2078cd8e4e6a">Tests</h2>
+
+<pre><code>&gt; py.test
+</code></pre>
+
+<h2 id="contributors:2e8e527b21ef2deedced2078cd8e4e6a">Contributors</h2>
+
+<p>Don&rsquo;t be shy.</p>
+
+<h2 id="license:2e8e527b21ef2deedced2078cd8e4e6a">License</h2>
+
+<p>MIT</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
