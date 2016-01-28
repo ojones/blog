@@ -77,15 +77,23 @@ print(parse.make_dict(test_table, 1))
     <item>
       <title>Cityholla</title>
       <link>http://ojones.github.io/blog/cityhollalanding/</link>
-      <pubDate>Sat, 23 Jan 2016 19:25:22 -0800</pubDate>
+      <pubDate>Mon, 25 Jan 2016 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/cityhollalanding/</guid>
       <description>
 
+&lt;p&gt;The Cityholla project was a finalist for the city of Santa Monica &lt;a href=&#34;http://hackthebeach.com/contest/&#34;&gt;&amp;ldquo;Hack the Beach&amp;rdquo;&lt;/a&gt; contest 2015.&lt;/p&gt;
+
+&lt;p&gt;They say that Moore&amp;rsquo;s law only applies to hardware, but I agree with &lt;a href=&#34;http://www.kurzweilai.net/&#34;&gt;Ray Kurzweil&lt;/a&gt; that software is also advancing at a more than linear rate.&lt;/p&gt;
+
+&lt;h1 id=&#34;landing-page:a49397842d3bcbafe692d19dec0e020b&#34;&gt;Landing Page&lt;/h1&gt;
+
+&lt;p&gt;The project lead, who is a friend, sent me a text on Sunday to create a landing page to display details and collect emails.  I had the site up and running on heroku that very night.  (Thanks &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/cityhollalanding.git
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;cityholla-landing-page:a49397842d3bcbafe692d19dec0e020b&#34;&gt;Cityholla landing page&lt;/h1&gt;
 
 &lt;p&gt;You can view the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -236,7 +244,7 @@ infobox = Infobox(wiki_text)
 
 &lt;h2 id=&#34;synopsis:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Synopsis&lt;/h2&gt;
 
-&lt;p&gt;Nifty proof of concept that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.&lt;/p&gt;
+&lt;p&gt;Nifty &lt;a href=&#34;http://ojones.github.io/CordFlow/&#34;&gt;proof of concept&lt;/a&gt; that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.&lt;/p&gt;
 
 &lt;h2 id=&#34;motivation:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Motivation&lt;/h2&gt;
 
@@ -255,17 +263,17 @@ infobox = Infobox(wiki_text)
     <item>
       <title>Twitter Sentiment</title>
       <link>http://ojones.github.io/blog/ga_data_science/</link>
-      <pubDate>Mon, 12 Jan 2015 19:25:22 -0800</pubDate>
+      <pubDate>Thu, 12 Feb 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/ga_data_science/</guid>
-      <description>
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/ga_data_science.git
+      <description>&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/ga_data_science.git
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ga-data-science:c964ef5fbd6dbe73fd0e1e3f23d8df54&#34;&gt;ga_data_science&lt;/h1&gt;
+&lt;p&gt;Not another Twitter sentiment analyzer&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Class project from General Assembly Data Science course&lt;/p&gt;
+&lt;p&gt;This was my project from General Assembly Data Science course taught by Nick Stucky from &lt;a href=&#34;https://whisper.sh/&#34;&gt;Whisper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Say what you will about coding bootcamps, &lt;a href=&#34;https://generalassemb.ly/education/data-science&#34;&gt;this&lt;/a&gt; class was amazing.  Nick gave us a solid overview of the data science field in general.&lt;/p&gt;
 </description>
     </item>
     
@@ -275,14 +283,12 @@ infobox = Infobox(wiki_text)
       <pubDate>Thu, 09 Oct 2014 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/coursera_ml_library/</guid>
-      <description>
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/coursera_ml_library.git
+      <description>&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/coursera_ml_library.git
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;coursera-ml-library:05cc7019e530c66bcb8351b9cd27f681&#34;&gt;coursera_ml_library&lt;/h1&gt;
+&lt;p&gt;Project for Coursera Machine Learning class with Stanford Professor Andrew Ng.&lt;/p&gt;
 
-&lt;p&gt;Project for Coursera Machine Learning class with Stanford Professor Andrew Ng&lt;/p&gt;
+&lt;p&gt;Most everyone already knows this, but in case you don&amp;rsquo;t.  &lt;a href=&#34;https://www.coursera.org/learn/machine-learning&#34;&gt;This&lt;/a&gt; is the best intro to machine learning in the world.  &lt;a href=&#34;http://www.andrewng.org/&#34;&gt;Andrew Ng&lt;/a&gt;, co-founder our Coursera, compassionately surveys the field of machine learning algorithms.  It is he who sparked my passion for data science and many thousands more.  And did I mention the class is free.&lt;/p&gt;
 </description>
     </item>
     
