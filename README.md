@@ -1,2 +1,2 @@
 # blog
-Personal blog for professional topics
+Personal blog for professional topics.
