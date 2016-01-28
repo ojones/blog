@@ -227,5 +227,17 @@ infobox = Infobox(wiki_text)
 </description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>http://ojones.github.io/blog/about/</link>
+      <pubDate>Mon, 10 Aug 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/about/</guid>
+      <description>&lt;p&gt;I am a software developer at Mediahound, working as a data engineer on The Entertainment Graph &amp;trade; powered by Neo4j.&lt;/p&gt;
+
+&lt;p&gt;I love coding in Python, Javascript, and C#, but am also interested in the functional languages (Ruby is also fun).  This blog is powered by Hugo, which is coded in Go.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
