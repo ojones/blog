@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Oswald Jones Pro &middot; Oswald Jones Pro </title>
+  <title> Oswald Jones &middot; Oswald Jones </title>
 
   
   <link rel="stylesheet" href="http://ojones.github.io/blog/css/poole.css">
@@ -21,7 +21,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="http://ojones.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="Oswald Jones Pro" />
+  <link href="http://ojones.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="Oswald Jones" />
 </head>
 
 <body class="">
@@ -29,9 +29,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="http://ojones.github.io/blog/"><h1>Oswald Jones Pro</h1></a>
+      <a href="http://ojones.github.io/blog/"><h1>Oswald Jones</h1></a>
       <p class="lead">
-      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+       --version pro 
       </p>
     </div>
 
@@ -152,6 +152,138 @@
 <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jÃ­cama salsify.</p>
 
 <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://ojones.github.io/blog/wikipedia_parser/">
+        The best wikipedia parser out there
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Oct 2, 2015</span>
+
+    
+
+<h2 id="synopsis:907c88537397ec981ae3b6c17395c58b">Synopsis</h2>
+
+<p>Uses Wikipedia API to store page id, title, html, wiki text, expanded templates, categories, page links, and summary in one class object for easy reference.  Also parses infobox data from wiki text, including page name, template name, image name, image url, and labeled key value data.</p>
+
+<h2 id="code-example:907c88537397ec981ae3b6c17395c58b">Code Example</h2>
+
+<p>Instantiate Wikipedia API object with page name or id:</p>
+
+<pre><code class="language-python"># wikipedia id can be digit or name (redirects are handled :)
+page = 'Ada_Lovelace'
+wiki_api = WikipediaAPI(page)
+</code></pre>
+
+<p>Here is the print list of available api resources</p>
+
+<pre><code class="language-python">&gt; print(dir(wiki_api))
+[   ...
+    'categories',
+    'expanded_html',
+    'html',
+    'page_id',
+    'page_links',
+    'search_id',
+    'summary',
+    'title',
+    'wiki_text']
+</code></pre>
+
+<p>If an infobox is present on page, you can parse the infobox data:</p>
+
+<pre><code class="language-python"># wiki text can be from anywhere, does not need to come from WikipediaAPI object
+wiki_text = wiki_api.wiki_text
+infobox = Infobox(wiki_text)
+</code></pre>
+
+<p>Here is the print list of available attributes</p>
+
+<pre><code class="language-python">&gt; print(dir(infobox))
+[   ...
+    'data',
+    'image_filename',
+    'image_url',
+    'page_name',
+    'template_name']
+</code></pre>
+
+<p>Infobox &ldquo;data&rdquo; is a dict of plain_text (ie no wiki templates), raw_text, and wiki links to other pages.
+<br>Compare with <a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada_Lovelace</a>:</p>
+
+<pre><code class="language-python">{   u'birth_date': {   'plain_text': u'',
+                       'raw_text': u'{{birth date|1815|12|10|df=yes}}',
+                       'wiki_links': []},
+    u'birth_name': {   'plain_text': u'The Hon. Augusta Ada Byron',
+                       'raw_text': u'The Hon. Augusta Ada Byron',
+                       'wiki_links': []},
+    u'birth_place': {   'plain_text': u'London, England',
+                        'raw_text': u'London, England',
+                        'wiki_links': []},
+    u'caption': {   'plain_text': u'Ada, Countess of Lovelace, 1840',
+                    'raw_text': u'Ada, Countess of Lovelace, 1840',
+                    'wiki_links': []},
+    u'children': {   'plain_text': u'',
+                     'raw_text': u'{{plainlist |\n* [[Byron King-Noel, Viscount Ockham|Byron King-Noel, Viscount Ockham and 12th Baron Wentworth]]\n* [[Anne Blunt, 15th Baroness Wentworth]]\n* [[Ralph King-Milbanke, 2nd Earl of Lovelace]]}}',
+                     'wiki_links': [   u'Byron King-Noel, Viscount Ockham',
+                                       u'Anne Blunt, 15th Baroness Wentworth',
+                                       u'Ralph King-Milbanke, 2nd Earl of Lovelace']},
+    u'death_date': {   'plain_text': u'',
+                       'raw_text': u'{{death date and age|1852|11|27|1815|12|10|df=yes}}',
+                       'wiki_links': []},
+    u'death_place': {   'plain_text': u'Marylebone, London, England',
+                        'raw_text': u'[[Marylebone]], London, England',
+                        'wiki_links': [u'Marylebone']},
+    u'field': {   'plain_text': u'Mathematics, computing',
+                  'raw_text': u'Mathematics, computing',
+                  'wiki_links': []},
+    u'image': {   'plain_text': u'Ada Lovelace portrait.jpg',
+                  'raw_text': u'Ada Lovelace portrait.jpg',
+                  'wiki_links': []},
+    u'name': {   'plain_text': u'Ada, Countess of Lovelace',
+                 'raw_text': u'Ada, Countess of Lovelace',
+                 'wiki_links': []},
+    u'parents': {   'plain_text': u'',
+                    'raw_text': u'{{plainlist |\n* [[Lord Byron|George Gordon Byron, 6th Baron Byron]]\n* [[Anne Isabella Byron, Baroness Byron|Anne Isabella Milbanke, 11th Baroness Wentworth]]\n  }}',
+                    'wiki_links': [u'Lord Byron', u'Anne Isabella Byron, Baroness Byron']},
+    u'resting_place': {   'plain_text': u'Church of St. Mary Magdalene, Hucknall, Nottingham, England',
+                          'raw_text': u'[[Church of St. Mary Magdalene, Hucknall]], Nottingham, England',
+                          'wiki_links': [u'Church of St. Mary Magdalene, Hucknall']},
+    u'spouse': {   'plain_text': u'William King-Noel, 1st Earl of Lovelace',
+                   'raw_text': u'[[William King-Noel, 1st Earl of Lovelace]]',
+                   'wiki_links': [u'William King-Noel, 1st Earl of Lovelace']},
+    u'title': {   'plain_text': u'Countess of Lovelace',
+                  'raw_text': u'Countess of Lovelace',
+                  'wiki_links': []}}
+</code></pre>
+
+<h2 id="motivation:907c88537397ec981ae3b6c17395c58b">Motivation</h2>
+
+<p><a href="https://github.com/spencermountain/wtf_wikipedia">wtf_wikipedia</a> and <a href="https://github.com/earwig/mwparserfromhell">mwparserfromhell</a> were the best wikipedia parsers I could find.  This one is better.</p>
+
+<h2 id="installation:907c88537397ec981ae3b6c17395c58b">Installation</h2>
+
+<p>Currently only works on Python 2.7 :(</p>
+
+<pre><code>&gt; python setup.py install
+</code></pre>
+
+<h2 id="tests:907c88537397ec981ae3b6c17395c58b">Tests</h2>
+
+<pre><code>&gt; py.text
+</code></pre>
+
+<h2 id="contributors:907c88537397ec981ae3b6c17395c58b">Contributors</h2>
+
+<p>Don&rsquo;t be shy.  Needs a couple updats for Python 3. Could use more functions to parse wiki templates such as &ldquo;{{plainlist}}&rdquo;</p>
+
+<h2 id="license:907c88537397ec981ae3b6c17395c58b">License</h2>
+
+<p>MIT</p>
 
   </div>
   

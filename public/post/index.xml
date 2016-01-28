@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Oswald Jones Pro</title>
+    <title>Posts on Oswald Jones</title>
     <link>http://ojones.github.io/blog/post/</link>
-    <description>Recent content in Posts on Oswald Jones Pro</description>
+    <description>Recent content in Posts on Oswald Jones</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Oswald Jones</copyright>
     <lastBuildDate>Sat, 23 Jan 2016 19:25:22 -0800</lastBuildDate>
     <atom:link href="http://ojones.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     

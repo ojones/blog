@@ -1,9 +1,22 @@
 baseurl = "http://ojones.github.io/blog/"
 languageCode = "en-us"
-title = "Oswald Jones Pro"
+title = "Oswald Jones"
 theme = "hyde"
-# menu = "main"
+copyright = "Oswald Jones"
 
-# SectionPagesMenu = "main"
+[Author]
+    name = "Oswald Jones"
 
+[Permalinks]
+    blog = "/:year/:month/:filename/"
+    code = "/:filename/"
+
+[Taxonomies]
+    tag = "tags"
+    series = "series"
+    series-desc = "series-desc"
+
+[params]
+    description = "--version pro"
+    github = "https://github.com/ojones"
 

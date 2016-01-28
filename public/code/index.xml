@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Oswald Jones</title>
+    <link>http://ojones.github.io/blog/code/</link>
+    <description>Recent content in Codes on Oswald Jones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Oswald Jones</copyright>
+    <lastBuildDate>Fri, 02 Oct 2015 19:25:22 -0800</lastBuildDate>
+    <atom:link href="http://ojones.github.io/blog/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The best wikipedia parser out there</title>
+      <link>http://ojones.github.io/blog/wikipedia_parser/</link>
+      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/wikipedia_parser/</guid>
+      <description>
+
+&lt;h2 id=&#34;synopsis:907c88537397ec981ae3b6c17395c58b&#34;&gt;Synopsis&lt;/h2&gt;
+
+&lt;p&gt;Uses Wikipedia API to store page id, title, html, wiki text, expanded templates, categories, page links, and summary in one class object for easy reference.  Also parses infobox data from wiki text, including page name, template name, image name, image url, and labeled key value data.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-example:907c88537397ec981ae3b6c17395c58b&#34;&gt;Code Example&lt;/h2&gt;
+
+&lt;p&gt;Instantiate Wikipedia API object with page name or id:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# wikipedia id can be digit or name (redirects are handled :)
+page = &#39;Ada_Lovelace&#39;
+wiki_api = WikipediaAPI(page)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the print list of available api resources&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt; print(dir(wiki_api))
+[   ...
+    &#39;categories&#39;,
+    &#39;expanded_html&#39;,
+    &#39;html&#39;,
+    &#39;page_id&#39;,
+    &#39;page_links&#39;,
+    &#39;search_id&#39;,
+    &#39;summary&#39;,
+    &#39;title&#39;,
+    &#39;wiki_text&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If an infobox is present on page, you can parse the infobox data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# wiki text can be from anywhere, does not need to come from WikipediaAPI object
+wiki_text = wiki_api.wiki_text
+infobox = Infobox(wiki_text)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the print list of available attributes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt; print(dir(infobox))
+[   ...
+    &#39;data&#39;,
+    &#39;image_filename&#39;,
+    &#39;image_url&#39;,
+    &#39;page_name&#39;,
+    &#39;template_name&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Infobox &amp;ldquo;data&amp;rdquo; is a dict of plain_text (ie no wiki templates), raw_text, and wiki links to other pages.
+&lt;br&gt;Compare with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ada_Lovelace&#34;&gt;Ada_Lovelace&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;{   u&#39;birth_date&#39;: {   &#39;plain_text&#39;: u&#39;&#39;,
+                       &#39;raw_text&#39;: u&#39;{{birth date|1815|12|10|df=yes}}&#39;,
+                       &#39;wiki_links&#39;: []},
+    u&#39;birth_name&#39;: {   &#39;plain_text&#39;: u&#39;The Hon. Augusta Ada Byron&#39;,
+                       &#39;raw_text&#39;: u&#39;The Hon. Augusta Ada Byron&#39;,
+                       &#39;wiki_links&#39;: []},
+    u&#39;birth_place&#39;: {   &#39;plain_text&#39;: u&#39;London, England&#39;,
+                        &#39;raw_text&#39;: u&#39;London, England&#39;,
+                        &#39;wiki_links&#39;: []},
+    u&#39;caption&#39;: {   &#39;plain_text&#39;: u&#39;Ada, Countess of Lovelace, 1840&#39;,
+                    &#39;raw_text&#39;: u&#39;Ada, Countess of Lovelace, 1840&#39;,
+                    &#39;wiki_links&#39;: []},
+    u&#39;children&#39;: {   &#39;plain_text&#39;: u&#39;&#39;,
+                     &#39;raw_text&#39;: u&#39;{{plainlist |\n* [[Byron King-Noel, Viscount Ockham|Byron King-Noel, Viscount Ockham and 12th Baron Wentworth]]\n* [[Anne Blunt, 15th Baroness Wentworth]]\n* [[Ralph King-Milbanke, 2nd Earl of Lovelace]]}}&#39;,
+                     &#39;wiki_links&#39;: [   u&#39;Byron King-Noel, Viscount Ockham&#39;,
+                                       u&#39;Anne Blunt, 15th Baroness Wentworth&#39;,
+                                       u&#39;Ralph King-Milbanke, 2nd Earl of Lovelace&#39;]},
+    u&#39;death_date&#39;: {   &#39;plain_text&#39;: u&#39;&#39;,
+                       &#39;raw_text&#39;: u&#39;{{death date and age|1852|11|27|1815|12|10|df=yes}}&#39;,
+                       &#39;wiki_links&#39;: []},
+    u&#39;death_place&#39;: {   &#39;plain_text&#39;: u&#39;Marylebone, London, England&#39;,
+                        &#39;raw_text&#39;: u&#39;[[Marylebone]], London, England&#39;,
+                        &#39;wiki_links&#39;: [u&#39;Marylebone&#39;]},
+    u&#39;field&#39;: {   &#39;plain_text&#39;: u&#39;Mathematics, computing&#39;,
+                  &#39;raw_text&#39;: u&#39;Mathematics, computing&#39;,
+                  &#39;wiki_links&#39;: []},
+    u&#39;image&#39;: {   &#39;plain_text&#39;: u&#39;Ada Lovelace portrait.jpg&#39;,
+                  &#39;raw_text&#39;: u&#39;Ada Lovelace portrait.jpg&#39;,
+                  &#39;wiki_links&#39;: []},
+    u&#39;name&#39;: {   &#39;plain_text&#39;: u&#39;Ada, Countess of Lovelace&#39;,
+                 &#39;raw_text&#39;: u&#39;Ada, Countess of Lovelace&#39;,
+                 &#39;wiki_links&#39;: []},
+    u&#39;parents&#39;: {   &#39;plain_text&#39;: u&#39;&#39;,
+                    &#39;raw_text&#39;: u&#39;{{plainlist |\n* [[Lord Byron|George Gordon Byron, 6th Baron Byron]]\n* [[Anne Isabella Byron, Baroness Byron|Anne Isabella Milbanke, 11th Baroness Wentworth]]\n  }}&#39;,
+                    &#39;wiki_links&#39;: [u&#39;Lord Byron&#39;, u&#39;Anne Isabella Byron, Baroness Byron&#39;]},
+    u&#39;resting_place&#39;: {   &#39;plain_text&#39;: u&#39;Church of St. Mary Magdalene, Hucknall, Nottingham, England&#39;,
+                          &#39;raw_text&#39;: u&#39;[[Church of St. Mary Magdalene, Hucknall]], Nottingham, England&#39;,
+                          &#39;wiki_links&#39;: [u&#39;Church of St. Mary Magdalene, Hucknall&#39;]},
+    u&#39;spouse&#39;: {   &#39;plain_text&#39;: u&#39;William King-Noel, 1st Earl of Lovelace&#39;,
+                   &#39;raw_text&#39;: u&#39;[[William King-Noel, 1st Earl of Lovelace]]&#39;,
+                   &#39;wiki_links&#39;: [u&#39;William King-Noel, 1st Earl of Lovelace&#39;]},
+    u&#39;title&#39;: {   &#39;plain_text&#39;: u&#39;Countess of Lovelace&#39;,
+                  &#39;raw_text&#39;: u&#39;Countess of Lovelace&#39;,
+                  &#39;wiki_links&#39;: []}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;motivation:907c88537397ec981ae3b6c17395c58b&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/spencermountain/wtf_wikipedia&#34;&gt;wtf_wikipedia&lt;/a&gt; and &lt;a href=&#34;https://github.com/earwig/mwparserfromhell&#34;&gt;mwparserfromhell&lt;/a&gt; were the best wikipedia parsers I could find.  This one is better.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation:907c88537397ec981ae3b6c17395c58b&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Currently only works on Python 2.7 :(&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tests:907c88537397ec981ae3b6c17395c58b&#34;&gt;Tests&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; py.text
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;contributors:907c88537397ec981ae3b6c17395c58b&#34;&gt;Contributors&lt;/h2&gt;
+
+&lt;p&gt;Don&amp;rsquo;t be shy.  Needs a couple updats for Python 3. Could use more functions to parse wiki templates such as &amp;ldquo;{{plainlist}}&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;license:907c88537397ec981ae3b6c17395c58b&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
