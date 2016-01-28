@@ -1,0 +1,9 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Oswald Jones Pro"
+theme = "hyde"
+# menu = "main"
+
+# SectionPagesMenu = "main"
+
+
