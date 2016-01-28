@@ -1,5 +1,5 @@
 +++
-date = "2015-10-02T19:25:22-08:00"
+date = "2015-01-12T19:25:22-08:00"
 title = "Twitter Sentiment"
 menu = "code"
 vanity = "https://github.com/ojones/ga_data_science"

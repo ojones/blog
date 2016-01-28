@@ -1,6 +1,6 @@
 +++
-date = "2015-10-02T19:25:22-08:00"
-title = "best html table parser"
+date = "2016-10-21T19:25:22-08:00"
+title = "Best Html Table Parser"
 menu = "code"
 vanity = "https://github.com/ojones/html_table_parser"
 

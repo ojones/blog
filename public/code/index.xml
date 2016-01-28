@@ -7,67 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Oswald Jones</copyright>
-    <lastBuildDate>Fri, 02 Oct 2015 19:25:22 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Oct 2016 19:25:22 -0800</lastBuildDate>
     <atom:link href="http://ojones.github.io/blog/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Cityholla</title>
-      <link>http://ojones.github.io/blog/cityhollalanding/</link>
-      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/cityhollalanding/</guid>
-      <description>
-
-&lt;h1 id=&#34;cityholla-landing-page:a49397842d3bcbafe692d19dec0e020b&#34;&gt;Cityholla landing page&lt;/h1&gt;
-
-&lt;p&gt;You can the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CordFlow</title>
-      <link>http://ojones.github.io/blog/cordflow/</link>
-      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/cordflow/</guid>
-      <description>
-
-&lt;h2 id=&#34;synopsis:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Synopsis&lt;/h2&gt;
-
-&lt;p&gt;Nifty proof of concept that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.&lt;/p&gt;
-
-&lt;h2 id=&#34;motivation:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Motivation&lt;/h2&gt;
-
-&lt;p&gt;We made this for a contest as a proof of concept.  There are still so many government paper forms.  Even fillable pdfs don&amp;rsquo;t easily let you apply webform data.  This project proves you can use javascript to convert paper into web objects with just an image of the paper form.&lt;/p&gt;
-
-&lt;h2 id=&#34;installation:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;p&gt;Just open the index.html file in your web browser.&lt;/p&gt;
-
-&lt;h2 id=&#34;license:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;MIT&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Twitter Sentiment</title>
-      <link>http://ojones.github.io/blog/ga_data_science/</link>
-      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/ga_data_science/</guid>
-      <description>
-
-&lt;h1 id=&#34;ga-data-science:c964ef5fbd6dbe73fd0e1e3f23d8df54&#34;&gt;ga_data_science&lt;/h1&gt;
-
-&lt;p&gt;Class project from General Assembly Data Science course&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>best html table parser</title>
+      <title>Best Html Table Parser</title>
       <link>http://ojones.github.io/blog/html_table_parser/</link>
-      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
+      <pubDate>Fri, 21 Oct 2016 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/html_table_parser/</guid>
       <description>
@@ -126,7 +72,21 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
-      <title>best wikipedia parser</title>
+      <title>Cityholla</title>
+      <link>http://ojones.github.io/blog/cityhollalanding/</link>
+      <pubDate>Sat, 23 Jan 2016 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/cityhollalanding/</guid>
+      <description>
+
+&lt;h1 id=&#34;cityholla-landing-page:a49397842d3bcbafe692d19dec0e020b&#34;&gt;Cityholla landing page&lt;/h1&gt;
+
+&lt;p&gt;You can view the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Best Wikipedia Parser</title>
       <link>http://ojones.github.io/blog/wikipedia_parser/</link>
       <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
       
@@ -255,9 +215,49 @@ infobox = Infobox(wiki_text)
     </item>
     
     <item>
-      <title>mlclass</title>
+      <title>CordFlow</title>
+      <link>http://ojones.github.io/blog/cordflow/</link>
+      <pubDate>Thu, 21 May 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/cordflow/</guid>
+      <description>
+
+&lt;h2 id=&#34;synopsis:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Synopsis&lt;/h2&gt;
+
+&lt;p&gt;Nifty proof of concept that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.&lt;/p&gt;
+
+&lt;h2 id=&#34;motivation:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;We made this for a contest as a proof of concept.  There are still so many government paper forms.  Even fillable pdfs don&amp;rsquo;t easily let you apply webform data.  This project proves you can use javascript to convert paper into web objects with just an image of the paper form.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Just open the index.html file in your web browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;license:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter Sentiment</title>
+      <link>http://ojones.github.io/blog/ga_data_science/</link>
+      <pubDate>Mon, 12 Jan 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/ga_data_science/</guid>
+      <description>
+
+&lt;h1 id=&#34;ga-data-science:c964ef5fbd6dbe73fd0e1e3f23d8df54&#34;&gt;ga_data_science&lt;/h1&gt;
+
+&lt;p&gt;Class project from General Assembly Data Science course&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ML Class Library</title>
       <link>http://ojones.github.io/blog/coursera_ml_library/</link>
-      <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
+      <pubDate>Thu, 09 Oct 2014 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/coursera_ml_library/</guid>
       <description>

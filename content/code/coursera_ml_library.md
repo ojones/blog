@@ -1,6 +1,6 @@
 +++
-date = "2015-10-02T19:25:22-08:00"
-title = "mlclass"
+date = "2014-10-09T19:25:22-08:00"
+title = "ML Class Library"
 menu = "code"
 vanity = "https://github.com/ojones/coursera_ml_library"
 

@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://ojones.github.io/blog/</loc>
-    <lastmod>2016-01-23T19:25:22-08:00</lastmod>
+    <lastmod>2016-10-21T19:25:22-08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ojones.github.io/blog/html_table_parser/</loc>
+    <lastmod>2016-10-21T19:25:22-08:00</lastmod>
   </url>
   
   <url>
@@ -14,6 +19,11 @@
   
   <url>
     <loc>http://ojones.github.io/blog/post/bizLogicVsTechReqs/</loc>
+    <lastmod>2016-01-23T19:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ojones.github.io/blog/cityhollalanding/</loc>
     <lastmod>2016-01-23T19:25:22-08:00</lastmod>
   </url>
   
@@ -38,38 +48,28 @@
   </url>
   
   <url>
-    <loc>http://ojones.github.io/blog/cityhollalanding/</loc>
-    <lastmod>2015-10-02T19:25:22-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ojones.github.io/blog/cordflow/</loc>
-    <lastmod>2015-10-02T19:25:22-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ojones.github.io/blog/ga_data_science/</loc>
-    <lastmod>2015-10-02T19:25:22-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ojones.github.io/blog/html_table_parser/</loc>
-    <lastmod>2015-10-02T19:25:22-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://ojones.github.io/blog/wikipedia_parser/</loc>
-    <lastmod>2015-10-02T19:25:22-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ojones.github.io/blog/coursera_ml_library/</loc>
     <lastmod>2015-10-02T19:25:22-08:00</lastmod>
   </url>
   
   <url>
     <loc>http://ojones.github.io/blog/about/</loc>
     <lastmod>2015-08-10T19:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ojones.github.io/blog/cordflow/</loc>
+    <lastmod>2015-05-21T19:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ojones.github.io/blog/ga_data_science/</loc>
+    <lastmod>2015-01-12T19:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ojones.github.io/blog/coursera_ml_library/</loc>
+    <lastmod>2014-10-09T19:25:22-08:00</lastmod>
   </url>
   
 </urlset>
