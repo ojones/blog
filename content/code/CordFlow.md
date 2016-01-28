@@ -6,6 +6,10 @@ vanity = "https://github.com/ojones/CordFlow"
 
 +++
 
+```
+git clone https://github.com/ojones/CordFlow.git
+```
+
 ## Synopsis
 
 Nifty proof of concept that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.

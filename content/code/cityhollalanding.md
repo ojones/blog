@@ -6,6 +6,10 @@ vanity = "https://github.com/ojones/cityhollalanding"
 
 +++
 
+```
+git clone https://github.com/ojones/cityhollalanding.git
+```
+
 # Cityholla landing page
 
 You can view the rendered site at [cityholla.com](http://www.cityholla.com/).

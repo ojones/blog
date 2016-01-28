@@ -6,6 +6,10 @@ vanity = "https://github.com/ojones/wikipedia_parser"
 
 +++
 
+```
+git clone https://github.com/ojones/wikipedia_parser.git
+```
+
 ## Synopsis
 
 Uses Wikipedia API to store page id, title, html, wiki text, expanded templates, categories, page links, and summary in one class object for easy reference.  Also parses infobox data from wiki text, including page name, template name, image name, image url, and labeled key value data.

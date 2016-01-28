@@ -6,6 +6,10 @@ vanity = "https://github.com/ojones/ga_data_science"
 
 +++
 
+```
+git clone https://github.com/ojones/ga_data_science.git
+```
+
 # ga_data_science
 
 Class project from General Assembly Data Science course

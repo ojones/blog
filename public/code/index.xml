@@ -11,12 +11,15 @@
     <atom:link href="http://ojones.github.io/blog/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Best Html Table Parser</title>
+      <title>Best HTML Table Parser</title>
       <link>http://ojones.github.io/blog/html_table_parser/</link>
       <pubDate>Fri, 21 Oct 2016 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/html_table_parser/</guid>
       <description>
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/html_table_parser.git
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;synopsis:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Synopsis&lt;/h2&gt;
 
@@ -79,6 +82,9 @@ print(parse.make_dict(test_table, 1))
       <guid>http://ojones.github.io/blog/cityhollalanding/</guid>
       <description>
 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/cityhollalanding.git
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h1 id=&#34;cityholla-landing-page:a49397842d3bcbafe692d19dec0e020b&#34;&gt;Cityholla landing page&lt;/h1&gt;
 
 &lt;p&gt;You can view the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
@@ -92,6 +98,9 @@ print(parse.make_dict(test_table, 1))
       
       <guid>http://ojones.github.io/blog/wikipedia_parser/</guid>
       <description>
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/wikipedia_parser.git
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;synopsis:907c88537397ec981ae3b6c17395c58b&#34;&gt;Synopsis&lt;/h2&gt;
 
@@ -222,6 +231,9 @@ infobox = Infobox(wiki_text)
       <guid>http://ojones.github.io/blog/cordflow/</guid>
       <description>
 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/CordFlow.git
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;synopsis:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Synopsis&lt;/h2&gt;
 
 &lt;p&gt;Nifty proof of concept that demonstrates how to convert paper to JSON.  Also demonstrates how the json object can be used to automatically generate a web form and apply the answers back to paper.&lt;/p&gt;
@@ -248,6 +260,9 @@ infobox = Infobox(wiki_text)
       <guid>http://ojones.github.io/blog/ga_data_science/</guid>
       <description>
 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/ga_data_science.git
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h1 id=&#34;ga-data-science:c964ef5fbd6dbe73fd0e1e3f23d8df54&#34;&gt;ga_data_science&lt;/h1&gt;
 
 &lt;p&gt;Class project from General Assembly Data Science course&lt;/p&gt;
@@ -261,6 +276,9 @@ infobox = Infobox(wiki_text)
       
       <guid>http://ojones.github.io/blog/coursera_ml_library/</guid>
       <description>
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/coursera_ml_library.git
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id=&#34;coursera-ml-library:05cc7019e530c66bcb8351b9cd27f681&#34;&gt;coursera_ml_library&lt;/h1&gt;
 

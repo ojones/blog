@@ -6,6 +6,6 @@ title = "About"
     weight = 1
 +++
 
-I am a data engineer at Mediahound where I work on The Entertainment Graph (TM) powered by Neo4j.  
+I am a software engineer at Mediahound where I work on The Entertainment Graph (TM) powered by Neo4j.  
 
-I love coding in Python, Javascript, and C#, but am also interested in the functional languages (Ruby is also fun).  This blog is powered by Hugo, which is coded in Go.  
+I love coding in Python, Javascript, and C#, but am also interested in modern functional languages (Ruby is cool too).  This blog is powered by Hugo, which is coded in Go.  

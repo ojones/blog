@@ -6,5 +6,9 @@ vanity = "https://github.com/ojones/coursera_ml_library"
 
 +++
 
+```
+git clone https://github.com/ojones/coursera_ml_library.git
+```
+
 # coursera_ml_library
 Project for Coursera Machine Learning class with Stanford Professor Andrew Ng
