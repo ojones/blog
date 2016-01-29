@@ -17,6 +17,6 @@ copyright = "Oswald Jones"
     series-desc = "series-desc"
 
 [params]
-    description = "--version pro"
+    description = "--version dev"
     github = "https://github.com/ojones"
 
