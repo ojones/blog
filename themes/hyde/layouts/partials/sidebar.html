@@ -13,6 +13,7 @@
       {{ range .Site.Menus.main }}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
+      <li><a href="/blog/books">Books</a></li>
       <br/>
       {{with .Site.Menus.code}}
       <li>Code:</li>

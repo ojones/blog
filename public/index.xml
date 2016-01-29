@@ -75,6 +75,18 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
+      <title>Work Rules!</title>
+      <link>http://ojones.github.io/blog/books/WorkRules/</link>
+      <pubDate>Sat, 04 Jun 2016 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/WorkRules/</guid>
+      <description>&lt;p&gt;The first third of the &lt;a href=&#34;https://www.workrules.net/&#34;&gt;book&lt;/a&gt; is an unforgivable worship to Google. I almost wrote the book off as a mere marketing scheme. However, as &lt;a href=&#34;https://www.linkedin.com/in/laszlobock&#34;&gt;Laszlo Bock&lt;/a&gt; himself explains, Google has run a variety of experiments and collected data on things about the work place that no woman ever has before.&lt;/p&gt;
+
+&lt;p&gt;Bock clearly lays out the results of the experiments smaller companies couldn’t afford to do themselves, but can’t afford to ignore. He brings HR into the limelight and makes you want to quit your job to join the people operations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cityholla</title>
       <link>http://ojones.github.io/blog/cityhollalanding/</link>
       <pubDate>Mon, 25 Jan 2016 19:25:22 -0800</pubDate>
@@ -96,6 +108,18 @@ print(parse.make_dict(test_table, 1))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You can view the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Master Algorithm</title>
+      <link>http://ojones.github.io/blog/books/TheMasterAlgorithm/</link>
+      <pubDate>Mon, 16 Nov 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/TheMasterAlgorithm/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://homes.cs.washington.edu/~pedrod/&#34;&gt;Pedro Domingos&lt;/a&gt; gives a valient effort to bring the complexity and potential of machine lerning (ML) to the common man.  He fails, but succeeds in telling the compelling story of ML algorithms to this point and tow where they may be going.&lt;/p&gt;
+
+&lt;p&gt;I recommend this &lt;a href=&#34;http://www.amazon.com/The-Master-Algorithm-Ultimate-Learning/dp/0465065708&#34;&gt;book&lt;/a&gt; to everyone who has an at least peripheral understanding of data science.  Domingos does more than just skim the major algorithms.  He weaves their stories together in a coherent journey toward the ultimate master algorithm.&lt;/p&gt;
 </description>
     </item>
     
@@ -269,6 +293,18 @@ infobox = Infobox(wiki_text)
 &lt;h2 id=&#34;license:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;License&lt;/h2&gt;
 
 &lt;p&gt;MIT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Superintelligence</title>
+      <link>http://ojones.github.io/blog/books/Superintelligence/</link>
+      <pubDate>Tue, 12 May 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/Superintelligence/</guid>
+      <description>&lt;p&gt;You would think that a tech &lt;a href=&#34;http://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2&#34;&gt;book&lt;/a&gt; with such a cool title on such an interesting subject coudn&amp;rsquo;t possibly lose.  But you&amp;rsquo;ll be snoring at the 40% mark.  It turns out the detailed hypotheticals about exactly how and when the world will be destroyed is not fun.  Who knew?&lt;/p&gt;
+
+&lt;p&gt;The one saving grace that makes the whole thing worth it is the movie &amp;ldquo;Ex Machina,&amp;rdquo; which should be required after every reading.  It is doubtful you will understand the plot of the movie without the background &lt;a href=&#34;http://www.nickbostrom.com/&#34;&gt;Nick Bostrom&lt;/a&gt; gives.  Dry as it may be, it&amp;rsquo;s the only book I&amp;rsquo;ve found that tackles the dangers of AI seriously.&lt;/p&gt;
 </description>
     </item>
     
