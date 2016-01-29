@@ -117,9 +117,9 @@ print(parse.make_dict(test_table, 1))
       <pubDate>Mon, 16 Nov 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/books/TheMasterAlgorithm/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://homes.cs.washington.edu/~pedrod/&#34;&gt;Pedro Domingos&lt;/a&gt; gives a valient effort to bring the complexity and potential of machine learning (ML) to the common man.  He fails, but succeeds in telling the compelling story of ML algorithms to this point and tow where they may be going.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://homes.cs.washington.edu/~pedrod/&#34;&gt;Pedro Domingos&lt;/a&gt; gives a valient effort to bring the complexity and potential of machine learning (ML) to the common man.  He fails, but succeeds in telling the compelling story of ML algorithms to this point and to where they may be going.&lt;/p&gt;
 
-&lt;p&gt;I recommend this &lt;a href=&#34;http://www.amazon.com/The-Master-Algorithm-Ultimate-Learning/dp/0465065708&#34;&gt;book&lt;/a&gt; to everyone who has an at least peripheral understanding of data science.  Domingos does more than just skim the major algorithms.  He weaves their stories together in a coherent journey toward the ultimate master algorithm.&lt;/p&gt;
+&lt;p&gt;I recommend this &lt;a href=&#34;http://www.amazon.com/The-Master-Algorithm-Ultimate-Learning/dp/0465065708&#34;&gt;book&lt;/a&gt; to everyone who has an, at least, peripheral understanding of data science.  Domingos does more than just skim the major algorithms.  He weaves their stories together in a coherent journey toward the ultimate algorithm.&lt;/p&gt;
 </description>
     </item>
     
