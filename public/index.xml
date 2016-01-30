@@ -75,18 +75,6 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
-      <title>Work Rules!</title>
-      <link>http://ojones.github.io/blog/books/WorkRules/</link>
-      <pubDate>Sat, 04 Jun 2016 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/books/WorkRules/</guid>
-      <description>&lt;p&gt;The first third of the &lt;a href=&#34;https://www.workrules.net/&#34;&gt;book&lt;/a&gt; is an unforgivable worship to Google. I almost wrote the book off as a mere marketing scheme. However, as &lt;a href=&#34;https://www.linkedin.com/in/laszlobock&#34;&gt;Laszlo Bock&lt;/a&gt; himself explains, Google has run a variety of experiments and collected data on things about the work place that no woman ever has before.&lt;/p&gt;
-
-&lt;p&gt;Bock clearly lays out the results of the experiments smaller companies couldn’t afford to do themselves, but can’t afford to ignore. He brings HR into the limelight and makes you want to quit your job to join the people operations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Cityholla</title>
       <link>http://ojones.github.io/blog/cityhollalanding/</link>
       <pubDate>Mon, 25 Jan 2016 19:25:22 -0800</pubDate>
@@ -283,6 +271,18 @@ infobox = Infobox(wiki_text)
 
 &lt;p&gt;&lt;br&gt;
 We were trying to solve a big problem in a big way.  Despite having the greatest database and expertise for all US licenses and permits, our entire Santa Monica office was cut.  Too bad, our NPS was consistently above 50.  We could have been the TurboTax for government licenses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Work Rules!</title>
+      <link>http://ojones.github.io/blog/books/WorkRules/</link>
+      <pubDate>Thu, 04 Jun 2015 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/WorkRules/</guid>
+      <description>&lt;p&gt;The first third of the &lt;a href=&#34;https://www.workrules.net/&#34;&gt;book&lt;/a&gt; is an unforgivable worship to Google. I almost wrote the book off as a mere marketing scheme. However, as &lt;a href=&#34;https://www.linkedin.com/in/laszlobock&#34;&gt;Laszlo Bock&lt;/a&gt; himself explains, Google has run a variety of experiments and collected data on things about the work place that no woman ever has before.&lt;/p&gt;
+
+&lt;p&gt;Bock clearly lays out the results of the experiments smaller companies couldn’t afford to do themselves, but can’t afford to ignore. He brings HR into the limelight and makes you want to quit your job to join the people operations.&lt;/p&gt;
 </description>
     </item>
     
