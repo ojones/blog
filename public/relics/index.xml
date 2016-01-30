@@ -37,7 +37,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <guid>http://ojones.github.io/blog/relics/fox/</guid>
       <description>&lt;p&gt;Circa 2013, I worked at &lt;a href=&#34;http://www.foxmovies.com/&#34;&gt;Fox&lt;/a&gt; as a member of the &amp;ldquo;Dev Dream Team.&amp;rdquo;  Everything they say about the movie business is true (even for the engineers).  Still we got to make a bunch of cool screener apps really quickly.&lt;/p&gt;
 
-&lt;p&gt;I helped make the Oscar&amp;rsquo;s screener app the same year we won for 12 Years A Slave (still need to see that actually, when&amp;rsquo;s a good time to be angry and depressed).  I want to thank The Academy&amp;hellip; and Jesus.&lt;/p&gt;
+&lt;p&gt;Our team made the screener app for the Oscar&amp;rsquo;s the same year we won for 12 Years A Slave.  I want to thank The Academy&amp;hellip; and Jesus.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -130,9 +130,37 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     </item>
     
     <item>
+      <title>Disney</title>
+      <link>http://ojones.github.io/blog/relics/disney/</link>
+      <pubDate>Sat, 09 Jul 2011 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/relics/disney/</guid>
+      <description>&lt;p&gt;Circa 2011, I worked on a top secret project for &lt;a href=&#34;http://www.disneystore.com/magicband/mn/1024701/&#34;&gt;Disney&lt;/a&gt;. Code words, security&amp;hellip; really can&amp;rsquo;t say anymore.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/disney.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Disney MagicBand&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Working as a consultant for Accenture, my team ran the key service which all others depended upon.  It was great to see a project go from napkin drawings to RFID chips, molds, around the world, into customer homes, and onto happy children&amp;rsquo;s wrists.  I still have mine from the first production ready batch.&lt;/p&gt;
+
+&lt;p&gt;With tens of engineers, hundreds of service endpoints, and millions of customers, you learn a lot about what it takes to make magic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Clearwire</title>
       <link>http://ojones.github.io/blog/relics/clearwire/</link>
-      <pubDate>Sun, 25 Jan 2009 19:25:22 -0800</pubDate>
+      <pubDate>Tue, 02 Nov 2010 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/clearwire/</guid>
       <description>&lt;p&gt;Circa 2010, &lt;a href=&#34;http://www.clear.com/&#34;&gt;Clearwire&lt;/a&gt; had just changed their name to Clear.  That was the beginning of the end.  They were just a little ahead of their time.&lt;/p&gt;
@@ -156,40 +184,12 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     </item>
     
     <item>
-      <title>Disney</title>
-      <link>http://ojones.github.io/blog/relics/disney/</link>
-      <pubDate>Sun, 25 Jan 2009 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/relics/disney/</guid>
-      <description>&lt;p&gt;Circa 2012, I worked on a top secret project for &lt;a href=&#34;http://www.disneystore.com/magicband/mn/1024701/&#34;&gt;Disney&lt;/a&gt;. Code words, security&amp;hellip; really can&amp;rsquo;t say anymore.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/disney.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Disney MagicBand&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Working as a consultant for Accenture, my team&amp;rsquo;s service was the source of truth for the cradle to grave lifetime of each MagicBand.  It was great to see a project go from napkin drawings to RFID chips, molds, China, India, Seattle, Orlando, into customer homes, and onto children&amp;rsquo;s wrists.  I still have mine from the first production ready batch.&lt;/p&gt;
-
-&lt;p&gt;With tens of services, hundreds of engineers, and millions of customers, you learn a lot about what it takes to make magic.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Microsoft</title>
       <link>http://ojones.github.io/blog/relics/microsoft/</link>
-      <pubDate>Sun, 25 Jan 2009 19:25:22 -0800</pubDate>
+      <pubDate>Fri, 27 Nov 2009 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/microsoft/</guid>
-      <description>&lt;p&gt;Circa 2010, like most Microsoft employees, I was a contractor.  Through &lt;a href=&#34;https://www.catalysis.com/&#34;&gt;Catalysis&lt;/a&gt; I worked on a number of high profile projects.&lt;/p&gt;
+      <description>&lt;p&gt;Circa 2009, like most Microsoft employees, I was a contractor.  Through &lt;a href=&#34;https://www.catalysis.com/&#34;&gt;Catalysis&lt;/a&gt; I worked on a number of high profile projects.&lt;/p&gt;
 
 &lt;p&gt;Remember these:
 
@@ -241,10 +241,10 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     <item>
       <title>WaMu</title>
       <link>http://ojones.github.io/blog/relics/wamu/</link>
-      <pubDate>Sun, 25 Jan 2009 19:25:22 -0800</pubDate>
+      <pubDate>Thu, 25 Jan 2007 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/wamu/</guid>
-      <description>&lt;p&gt;Circa 2006, we at &lt;a href=&#34;https://en.wikipedia.org/wiki/Washington_Mutual&#34;&gt;Wamu&lt;/a&gt; (aka Washington Mutual) thought we were the coolest bank.  Cool nickname, cool kiosks.  So of course we had to have the coolest website. (Ahem, for a bank.)&lt;/p&gt;
+      <description>&lt;p&gt;Circa 2007, we at &lt;a href=&#34;https://en.wikipedia.org/wiki/Washington_Mutual&#34;&gt;Wamu&lt;/a&gt; (aka Washington Mutual) thought we were the coolest bank.  Cool nickname, cool kiosks.  So of course we had to have the coolest website. (Ahem, for a bank.)&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -262,7 +262,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
 
 &lt;p&gt;Hired to the Technology Leadership Program straight out of college, my first job was to work on the controls team.  We were using the latest in Microsoft ASP.NET 2.0 technology.  Remember .ascx “user controls.”  I think they&amp;rsquo;re called &amp;ldquo;components&amp;rdquo; now.&lt;/p&gt;
 
-&lt;p&gt;I swear, can’t a button just be called a button.  How long are we as a tech community going to keep re-inventing the same thing.&lt;/p&gt;
+&lt;p&gt;I swear, can’t a button just be called a button.  How long are we as a tech community going to keep re-inventing the same thing.  I know, I know, it&amp;rsquo;s the browsers fault.&lt;/p&gt;
 
 &lt;p&gt;Still looking at this screenshot I see a lot to learn from.  Good contrast, accessibilty, flat (mostly).  We had the best practice of bread crumbs and user tabs, for the time at least.&lt;/p&gt;
 </description>

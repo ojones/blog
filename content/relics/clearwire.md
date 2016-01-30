@@ -1,5 +1,5 @@
 +++
-date = "2009-01-25T19:25:22-08:00"
+date = "2010-11-02T19:25:22-08:00"
 title = "Clearwire"
 menu = "relics"
 
