@@ -227,6 +227,9 @@ time {
   color: #999;
   float: right;
 }
+ul.posts {
+  padding: 0 1.25rem;
+}
 ul.posts li {
   list-style: none;
 }
