@@ -18,7 +18,7 @@
       <guid>http://ojones.github.io/blog/html_table_parser/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/html_table_parser.git
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/html_table_parser.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;synopsis:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Synopsis&lt;/h2&gt;
