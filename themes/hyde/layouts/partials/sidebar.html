@@ -15,15 +15,16 @@
       {{end}}
       <li><a href="/blog/books">Books</a></li>
       <li><a href="/blog/relics">Relics</a></li>
-      <br/>
+      <li class="phone-only"><a href="/blog/code">Code</a></li>
+      <br class="phone-hide"/>
       {{with .Site.Menus.code}}
-      <li>Code:</li>
+      <li class="phone-hide">Code:</li>
         {{ range . }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a> </li>
+          <li class="phone-hide"><a href="{{ .URL }}">{{ .Name }}</a> </li>
         {{end}}
       {{end}}
     </ul>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p class="phone-hide">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
   </div>
 </div>
