@@ -6,7 +6,7 @@ vanity = "https://github.com/ojones/ga_data_science"
 
 +++
 
-```
+```git
 git clone https://github.com/ojones/ga_data_science.git
 ```
 

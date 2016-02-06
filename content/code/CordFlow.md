@@ -6,7 +6,7 @@ vanity = "https://github.com/ojones/CordFlow"
 
 +++
 
-```
+```git
 git clone https://github.com/ojones/CordFlow.git
 ```
 

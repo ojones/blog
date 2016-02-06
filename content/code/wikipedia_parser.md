@@ -6,7 +6,7 @@ vanity = "https://github.com/ojones/wikipedia_parser"
 
 +++
 
-```
+```git
 git clone https://github.com/ojones/wikipedia_parser.git
 ```
 

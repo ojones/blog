@@ -6,7 +6,7 @@ vanity = "https://github.com/ojones/coursera_ml_library"
 
 +++
 
-```
+```git
 git clone https://github.com/ojones/coursera_ml_library.git
 ```
 

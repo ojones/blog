@@ -92,7 +92,7 @@ print(parse.make_dict(test_table, 1))
 
 &lt;p&gt;Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/cityhollalanding.git
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/cityhollalanding.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You can view the rendered site at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
@@ -119,7 +119,7 @@ print(parse.make_dict(test_table, 1))
       <guid>http://ojones.github.io/blog/wikipedia_parser/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/wikipedia_parser.git
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/wikipedia_parser.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;synopsis:907c88537397ec981ae3b6c17395c58b&#34;&gt;Synopsis&lt;/h2&gt;
@@ -294,7 +294,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <guid>http://ojones.github.io/blog/cordflow/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/CordFlow.git
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/CordFlow.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;synopsis:1665c900a994357c0fd7bd49c23dfebe&#34;&gt;Synopsis&lt;/h2&gt;
@@ -333,7 +333,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <pubDate>Thu, 12 Feb 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/ga_data_science/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/ga_data_science.git
+      <description>&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/ga_data_science.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Not another Twitter sentiment analyzer&amp;hellip;&lt;/p&gt;
@@ -350,7 +350,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <pubDate>Thu, 09 Oct 2014 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/coursera_ml_library/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;git clone https://github.com/ojones/coursera_ml_library.git
+      <description>&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/ojones/coursera_ml_library.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Project for Coursera Machine Learning class with Stanford Professor Andrew Ng.&lt;/p&gt;
