@@ -107,13 +107,13 @@ Infobox "data" is a dict of plain_text (ie no wiki templates), raw_text, and wik
 ## Installation
 
 Currently only works on Python 2.7 :(
-```
+```git
 > python setup.py install
 ```
 
 ## Tests
 
-```
+```git
 > py.text
 ```
 

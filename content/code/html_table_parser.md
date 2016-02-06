@@ -48,7 +48,7 @@ I looked everywhere for the code to transform html tables with row and col spans
 So far html_table_parser is just a module with parser functions.  It works on Python 2.7 and Python 3.4.
 
 ## Tests
-~~~
+~~~git
 > py.test
 ~~~
 ## Contributors
