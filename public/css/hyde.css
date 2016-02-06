@@ -65,22 +65,8 @@ html {
 .phone-hide {
   display: none;
 }
-
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-  .phone-only {
-    display: none;
-  }
-  .phone-hide {
-    display: block;
-  }
+.phone-small {
+  font-size: 1rem
 }
 
 /* Sidebar links */
@@ -93,7 +79,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
@@ -110,6 +96,32 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+  .sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 3.25rem;
+  }
+  .phone-only {
+    display: none;
+  }
+  .phone-hide {
+    display: block;
+  }
+  .phone-small {
+    font-size: 1.25rem
+  }
 }
 
 /* Sticky sidebar
