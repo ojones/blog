@@ -363,9 +363,9 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <pubDate>Fri, 27 Feb 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/books/TheLogicianAndTheEngineer/</guid>
-      <description>&lt;p&gt;This is hands down the most technically challenging &lt;a href=&#34;http://www.amazon.com/The-Logician-Engineer-Shannon-Information/dp/0691151008&#34;&gt;book&lt;/a&gt; I&amp;rsquo;ve ever read.  After reading The Information by James Gleik, I became enamored with Claude Shannon, discoverer of the bit, and father of the information age.  &lt;a href=&#34;https://en.wikipedia.org/wiki/Paul_J._Nahin&#34;&gt;Paul J. Nahin&lt;/a&gt; makes the strong case that the lion&amp;rsquo;s share of credit originates with George Bool.&lt;/p&gt;
+      <description>&lt;p&gt;This is hands down the most technically challenging &lt;a href=&#34;http://www.amazon.com/The-Logician-Engineer-Shannon-Information/dp/0691151008&#34;&gt;book&lt;/a&gt; I&amp;rsquo;ve ever read.  After reading The Information by James Gleick, I became enamored with Claude Shannon, discoverer of the bit, and father of the information age.  &lt;a href=&#34;https://en.wikipedia.org/wiki/Paul_J._Nahin&#34;&gt;Paul J. Nahin&lt;/a&gt; makes the strong case that the lion&amp;rsquo;s share of credit originates with &lt;a href=&#34;https://en.wikipedia.org/wiki/George_Boole&#34;&gt;George Boole&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Nahin accomplishes by enumerating the boundless applications of boolean algebra.  He unapologetically tours the reader through complex riddles that would daunt Albert Einstein, but come apart like magic for the electrical engineer.&lt;/p&gt;
+&lt;p&gt;Nahin accomplishes this by enumerating the boundless applications of boolean algebra.  He unapologetically tours the reader through complex riddles that would have daunted Einstein, but come apart like magic for the electrical engineer.&lt;/p&gt;
 
 &lt;p&gt;I actually don&amp;rsquo;t recommend this book.  It&amp;rsquo;s a pain, boring, and impractical.  Still Nahin&amp;rsquo;s passion for boolean algebra is touching, even facinating.&lt;/p&gt;
 </description>
@@ -389,6 +389,22 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     </item>
     
     <item>
+      <title>The Logician and the Engineer</title>
+      <link>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</link>
+      <pubDate>Mon, 15 Dec 2014 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jaronlanier.com/&#34;&gt;Jaron Lanier&lt;/a&gt; represents the opposite side of the spectrum from Ray Kurzweil, and in some ways, just as extreme.  Known as the man who coined the phrase &amp;ldquo;virtual reality,&amp;rdquo; he&amp;rsquo;s played a sorted part in the history of computer science and is currently at Microsoft Research.&lt;/p&gt;
+
+&lt;p&gt;Lanier&amp;rsquo;s &lt;a href=&#34;http://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654979&#34;&gt;book&lt;/a&gt; is an almalgamation of his perspective on technology, econmics and the future.  Instead of fearing the AI singularity, which he feels is laughable, Lanier believes that society must take ownership of their online data, before the &amp;ldquo;siren servers&amp;rdquo; destroy our economy.&lt;/p&gt;
+
+&lt;p&gt;In the information age, is it any wonder that the companies that gather the most data on individuals are the richest (Google, Amazon, Facebook)?  And if we live in such an age, why are we giving our information away to these siren servers for free?&lt;/p&gt;
+
+&lt;p&gt;Lanier&amp;rsquo;s claims that these economic concerns and solutions are not predictions, but eventualities.  His hope is that we learn our economic lessons sooner, rather than after a century long recession.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ML Class Library</title>
       <link>http://ojones.github.io/blog/coursera_ml_library/</link>
       <pubDate>Thu, 09 Oct 2014 19:25:22 -0800</pubDate>
@@ -400,106 +416,6 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
 &lt;p&gt;Project for Coursera Machine Learning class with Stanford Professor Andrew Ng.&lt;/p&gt;
 
 &lt;p&gt;Most everyone already knows this, but in case you don&amp;rsquo;t.  &lt;a href=&#34;https://www.coursera.org/learn/machine-learning&#34;&gt;This&lt;/a&gt; is the best intro to machine learning in the world.  &lt;a href=&#34;http://www.andrewng.org/&#34;&gt;Andrew Ng&lt;/a&gt;, co-founder our Coursera, compassionately surveys the field of machine learning algorithms.  It is he who sparked my passion for data science and many thousands more.  And did I mention the class is free.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fox</title>
-      <link>http://ojones.github.io/blog/relics/fox/</link>
-      <pubDate>Wed, 25 Dec 2013 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/relics/fox/</guid>
-      <description>&lt;p&gt;Circa 2013, I worked at &lt;a href=&#34;http://www.foxmovies.com/&#34;&gt;Fox&lt;/a&gt; as a member of the &amp;ldquo;Dev Dream Team.&amp;rdquo;  Everything they say about the movie business is true (even for the engineers).  Still we got to make a bunch of cool screener apps really quickly.&lt;/p&gt;
-
-&lt;p&gt;Our team made the screener app for the Oscar&amp;rsquo;s the same year we won for 12 Years A Slave.  I want to thank The Academy&amp;hellip; and Jesus.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/12-years-a-slave.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;12 Years A Slave Won&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;After making a few screener apps (web and mobile), we thought why not make a generic admin tool so anyone at fox can share copyrighted video content.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_admin.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Generic Screener Admin&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;This is the movie industry so we can&amp;rsquo;t just put things on youtube.  We have a DRM process for everything.  That takes asset management, tracking, and Telerik.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_asset_mgr.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;DRM Asset Manager&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;But why stop there, let&amp;rsquo;s make an asset monolith with teams from all over the world.  You give me the designs, I give you back Knockout templates.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_control1.PNG&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Fox UI Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_control2.PNG&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Fox UI Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_control3.PNG&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Fox UI Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
 </description>
     </item>
     
