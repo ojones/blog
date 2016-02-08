@@ -1,5 +1,5 @@
 +++
-date = "2014-09-02T19:25:22-08:00"
+date = "2014-08-02T19:25:22-08:00"
 title = "Alan Turing: The Enigma"
 menu = "books"
 +++

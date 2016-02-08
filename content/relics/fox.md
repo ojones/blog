@@ -7,7 +7,7 @@ menu = "relics"
 
 Circa 2013, I worked at [Fox](http://www.foxmovies.com/) as a member of the "Dev Dream Team."  Everything they say about the movie business is true (even for the engineers).  Still we got to make a bunch of cool screener apps really quickly.
 
-Our team made the screener app for the Oscar's the same year we won for 12 Years A Slave.  I want to thank The Academy... and Jesus.
+Our team made the screener app for the Oscar's the same year we won for 12 Years A Slave.  I just want to thank The Academy... and Jesus.
 
 {{< figure src="/blog/relics/images/12-years-a-slave.jpg" title="12 Years A Slave Won" >}}
 

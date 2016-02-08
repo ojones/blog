@@ -14,4 +14,4 @@ Remember these:
 
 Well I worked on the msn.com tour, the Windows 7 registration page, and Office 2010 registration page.  
 
-Flash, localization, Rackspace.  Those were good days (wait, were they).  I was still a new developer but my websites were getting six figure hits.
+Flash, localization, Rackspace.  Those were good days (wait, were they).  I was still a new developer but my websites were getting seven figure hits.
