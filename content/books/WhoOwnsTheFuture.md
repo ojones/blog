@@ -1,6 +1,6 @@
 +++
 date = "2014-12-15T19:25:22-08:00"
-title = "The Logician and the Engineer"
+title = "Who Owns The Future"
 menu = "books"
 +++
 
