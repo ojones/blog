@@ -10,5 +10,5 @@ This [book](http://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344) s
 
 The employment strategy of hiring the best is a big theme.  The authors introduce their revolutionary notion of a "smart creative."  One, she is a brilliant worker who doesn't have to have a PHd, but could easily get one if she wanted to.  Two, she is passionate about her crafts, of which she has many.  To paraphrase a couple of criteria.
 
-The authors paint a pretty picture of the smart startup that broke all the rules to redefine the game.  And in the face of Google's success, who's to say they are wrong.  Doubts aside, it's a great industry perspective done by a great team.
+The authors paint a pretty picture of the smart startup that broke all the rules to redefine the game.  And in the face of Google's success, who's to say they are wrong.  Skepticisms aside, it's a great industry perspective done by a great team.
 
