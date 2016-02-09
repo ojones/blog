@@ -11,7 +11,7 @@
     <atom:link href="http://ojones.github.io/blog/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The Logician and the Engineer</title>
+      <title>Who Owns The Future</title>
       <link>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</link>
       <pubDate>Tue, 15 Dec 2015 19:25:22 -0800</pubDate>
       
@@ -137,6 +137,42 @@
 &lt;p&gt;This book divulges every intimate detail of Alan Turing&amp;rsquo;s life and death.  Of which, computer science was just one part.  His paper on The Imitation Game, in which he outlines the de facto standard for artificial intelligence, is the least of his accomplishments.&lt;/p&gt;
 
 &lt;p&gt;Hodges leaves no stone unturned.  While the movie falsely portrays Turing as a socially inept genius stereotype, the true dreamer is charming.  Love, war, prejudice, loss.  Ahead of his time in so many ways, this biography celebrates the achievement of much more than the father of a science.  But that of an incredible human spirit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Information</title>
+      <link>http://ojones.github.io/blog/books/TheInformation/</link>
+      <pubDate>Mon, 28 Jul 2014 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/TheInformation/</guid>
+      <description>&lt;p&gt;This may be the most important &lt;a href=&#34;http://www.amazon.com/The-Information-History-Theory-Flood/dp/1400096235&#34;&gt;book&lt;/a&gt; ever written.  &lt;a href=&#34;http://around.com/&#34;&gt;James Gleick&lt;/a&gt; skillfully telss the story of, well, everything.&lt;/p&gt;
+
+&lt;p&gt;Have you ever felt like there is something bigger out there.  Bigger than you.  Bigger than society.  Behind the phenomenal universe there is something at work.  And it&amp;rsquo;s growing.&lt;/p&gt;
+
+&lt;p&gt;Species come and go, but The Information is forever.  So what does this mean to the mere mortal human of today?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve often heard that you have to know your history to know your future.  I thought that was just something that history professor&amp;rsquo;s said to defend their deminishing usefulness in the economy.  But Gleick artfully illustrates how our world is most influenced by a background song that never ends.&lt;/p&gt;
+
+&lt;p&gt;Following the tune from indidinous Africa, through Ada Lovelace, and Richard Dawkins, Gleick clues us into what&amp;rsquo;s really going on.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Information</title>
+      <link>http://ojones.github.io/blog/books/HowToBuildABrain/</link>
+      <pubDate>Tue, 11 Feb 2014 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/HowToBuildABrain/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.kurzweilai.net/ray-kurzweil-biography&#34;&gt;Ray Kurzweil&lt;/a&gt; does it again, and even better this time.  Unlike The Singularity Is Near, this &lt;a href=&#34;http://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0190262125&#34;&gt;book&lt;/a&gt; pulls no punches for the technically timmid.&lt;/p&gt;
+
+&lt;p&gt;Kurzweil explains his controversial confidence that the way to AI is by reconstructing the human brain as a digital algorithm.  In fact, he asserts that for as complicated as the brain is, there may be only one algorithm at work.  And WHEN we do find it, there is no technical reason for why it can’t be duplicated.&lt;/p&gt;
+
+&lt;p&gt;Not betting the whole farm on any particular algorithm, he highlights the promise of Hidden Markov Models and potentials of modern neural networks.  (I don&amp;rsquo;t think the term deep learning was as en vogue at the time of writing.)&lt;/p&gt;
+
+&lt;p&gt;Rather than committing to a solution, Kurzweil admirably postulates that there must be a solution, and it is inevitable that we will find it soon.&lt;/p&gt;
+
+&lt;p&gt;This book is what took me to the next level and got me into machine learning.&lt;/p&gt;
 </description>
     </item>
     
