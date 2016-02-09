@@ -100,24 +100,6 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
-      <title>Who Owns The Future</title>
-      <link>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</link>
-      <pubDate>Tue, 15 Dec 2015 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.jaronlanier.com/&#34;&gt;Jaron Lanier&lt;/a&gt; represents the opposite side of the spectrum from Ray Kurzweil, and in some ways, just as extreme.  Known as the man who coined the phrase &amp;ldquo;virtual reality,&amp;rdquo; he&amp;rsquo;s played a sorted part in the history of computer science and is currently at Microsoft Research.&lt;/p&gt;
-
-&lt;p&gt;In the information age, is it any wonder that the companies that gather the most data on indiviuals in society are the richest?  And if we live in such an age, why are we giving our information away for free to these mega servers (Google, Amazon, Facebook)?&lt;/p&gt;
-
-&lt;p&gt;Lanier&amp;rsquo;s &lt;a href=&#34;http://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654979&#34;&gt;book&lt;/a&gt; is an almalgamation of his perspective on technology, econmics and the future.  Instead of fearing the AI singularity, which he feels is laughable, Lanier believes that society must take ownership of their online data, before the &amp;ldquo;siren servers&amp;rdquo; destroy our economy.&lt;/p&gt;
-
-&lt;p&gt;Lanier&amp;rsquo;s claim&amp;rsquo;s that these economic concerns and solutions are not predictions, but eventuallities.  His hope is that we learn our economic lessons sooner, rather than after a century long recession.&lt;/p&gt;
-
-&lt;p&gt;In the end, it&amp;rsquo;s tough to make the call.  Lanier or Kurzweil.  Kurzeil or Lanier.  Both have been around so long and seen so much.  Both are renegades headed in opposite directions.  I think they go great together.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Master Algorithm</title>
       <link>http://ojones.github.io/blog/books/TheMasterAlgorithm/</link>
       <pubDate>Mon, 16 Nov 2015 19:25:22 -0800</pubDate>
@@ -405,6 +387,24 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
 &lt;p&gt;This was my project from General Assembly Data Science course taught by Nick Stucky from &lt;a href=&#34;https://whisper.sh/&#34;&gt;Whisper&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Say what you will about coding bootcamps, &lt;a href=&#34;https://generalassemb.ly/education/data-science&#34;&gt;this&lt;/a&gt; class was amazing.  Nick gave us a solid overview of the data science field in general.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Who Owns The Future</title>
+      <link>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</link>
+      <pubDate>Mon, 15 Dec 2014 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/books/WhoOwnsTheFuture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jaronlanier.com/&#34;&gt;Jaron Lanier&lt;/a&gt; represents the opposite side of the spectrum from Ray Kurzweil, and in some ways, just as extreme.  Known as the man who coined the phrase &amp;ldquo;virtual reality,&amp;rdquo; he&amp;rsquo;s played a sorted part in the history of computer science and is currently at Microsoft Research.&lt;/p&gt;
+
+&lt;p&gt;In the information age, is it any wonder that the companies that gather the most data on indiviuals in society are the richest?  And if we live in such an age, why are we giving our information away for free to these mega servers (Google, Amazon, Facebook)?&lt;/p&gt;
+
+&lt;p&gt;Lanier&amp;rsquo;s &lt;a href=&#34;http://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654979&#34;&gt;book&lt;/a&gt; is an almalgamation of his perspective on technology, econmics and the future.  Instead of fearing the AI singularity, which he feels is laughable, Lanier believes that society must take ownership of their online data, before the &amp;ldquo;siren servers&amp;rdquo; destroy our economy.&lt;/p&gt;
+
+&lt;p&gt;Lanier&amp;rsquo;s claim&amp;rsquo;s that these economic concerns and solutions are not predictions, but eventuallities.  His hope is that we learn our economic lessons sooner, rather than after a century long recession.&lt;/p&gt;
+
+&lt;p&gt;In the end, it&amp;rsquo;s tough to make the call.  Lanier or Kurzweil.  Kurzeil or Lanier.  Both have been around so long and seen so much.  Both are renegades headed in opposite directions.  I think they go great together.&lt;/p&gt;
 </description>
     </item>
     
