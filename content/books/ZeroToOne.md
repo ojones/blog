@@ -11,5 +11,5 @@ What does he "kill" exactly?  Pessimism.  Well at least the most popular excuses
 
 That alone is a good reason to read this.  It's not a self help, or make your startup rich book.  Rather it's an intellectual frame of the world and how to take part in the future.
 
-It challenges popular viewpoints in economics and technology.  Even I was hurt and offended at parts.  But Thiel makes a strong case and I won't mock him just because I don't see eye to eye on every line.
+It challenges popular viewpoints in economics and technology.  Even I was hurt and offended at parts.  But Thiel makes a strong case and I won't discount his message just because I don't see eye to eye on every line.
 
