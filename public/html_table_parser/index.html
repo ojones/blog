@@ -78,7 +78,7 @@
 			  <span class="post-date">Oct 21, 2016</span>
 			      
 
-<pre><code class="language-git">git clone https://github.com/ojones/html_table_parser.git
+<pre><code class="language-git">$ pip install html_table_parser
 </code></pre>
 
 <h2 id="synopsis:2e8e527b21ef2deedced2078cd8e4e6a">Synopsis</h2>
@@ -89,7 +89,10 @@
 
 <p>Given an html table (with or without row and col spans). You can make a 2D array</p>
 
-<pre><code class="language-python">soup = bs(YOUR_HTML_TABLE, &quot;html.parser&quot;)
+<pre><code class="language-python">from bs4 import BeautifulSoup as bs
+from html_table_parser import parser_functions as parse
+
+soup = bs(YOUR_HTML_TABLE, &quot;html.parser&quot;)
 test_table = soup.find('table')
 twod_array = parse.make2d(test_table)
 
@@ -100,8 +103,7 @@ print(twod_array)
 <p>Use that 2D array to return column data by heading name</p>
 
 <pre><code class="language-python"># print column data by col heading name (case insensitive)
-print(parse.twod_col_data(twod_array, 'first name'))
-print(parse.twod_col_data(twod_array, 'lAst naMe'))
+print(parse.twod_col_data(twod_array, 'YOUR_COL_HEADING'))
 </code></pre>
 
 <p>Or transform the soup table object (test_table) into a dictionary</p>
@@ -117,11 +119,19 @@ print(parse.make_dict(test_table, 1))
 
 <h2 id="installation:2e8e527b21ef2deedced2078cd8e4e6a">Installation</h2>
 
-<p>So far html_table_parser is just a module with parser functions.  It works on Python 2.7 and Python 3.4.</p>
+<p>Works on Python 2.7 and Python 3.4.</p>
+
+<pre><code class="language-git">$ pip install html_table_parser
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-git">git clone https://github.com/ojones/html_table_parser.git
+</code></pre>
 
 <h2 id="tests:2e8e527b21ef2deedced2078cd8e4e6a">Tests</h2>
 
-<pre><code class="language-git">&gt; py.test
+<pre><code class="language-git">$ py.test
 </code></pre>
 
 <h2 id="contributors:2e8e527b21ef2deedced2078cd8e4e6a">Contributors</h2>

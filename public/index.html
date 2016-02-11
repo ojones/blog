@@ -88,7 +88,7 @@
 
     
 
-<pre><code class="language-git">git clone https://github.com/ojones/html_table_parser.git
+<pre><code class="language-git">$ pip install html_table_parser
 </code></pre>
 
 <h2 id="synopsis:2e8e527b21ef2deedced2078cd8e4e6a">Synopsis</h2>
@@ -99,7 +99,10 @@
 
 <p>Given an html table (with or without row and col spans). You can make a 2D array</p>
 
-<pre><code class="language-python">soup = bs(YOUR_HTML_TABLE, &quot;html.parser&quot;)
+<pre><code class="language-python">from bs4 import BeautifulSoup as bs
+from html_table_parser import parser_functions as parse
+
+soup = bs(YOUR_HTML_TABLE, &quot;html.parser&quot;)
 test_table = soup.find('table')
 twod_array = parse.make2d(test_table)
 
@@ -110,8 +113,7 @@ print(twod_array)
 <p>Use that 2D array to return column data by heading name</p>
 
 <pre><code class="language-python"># print column data by col heading name (case insensitive)
-print(parse.twod_col_data(twod_array, 'first name'))
-print(parse.twod_col_data(twod_array, 'lAst naMe'))
+print(parse.twod_col_data(twod_array, 'YOUR_COL_HEADING'))
 </code></pre>
 
 <p>Or transform the soup table object (test_table) into a dictionary</p>
@@ -127,11 +129,19 @@ print(parse.make_dict(test_table, 1))
 
 <h2 id="installation:2e8e527b21ef2deedced2078cd8e4e6a">Installation</h2>
 
-<p>So far html_table_parser is just a module with parser functions.  It works on Python 2.7 and Python 3.4.</p>
+<p>Works on Python 2.7 and Python 3.4.</p>
+
+<pre><code class="language-git">$ pip install html_table_parser
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-git">git clone https://github.com/ojones/html_table_parser.git
+</code></pre>
 
 <h2 id="tests:2e8e527b21ef2deedced2078cd8e4e6a">Tests</h2>
 
-<pre><code class="language-git">&gt; py.test
+<pre><code class="language-git">$ py.test
 </code></pre>
 
 <h2 id="contributors:2e8e527b21ef2deedced2078cd8e4e6a">Contributors</h2>
@@ -172,22 +182,16 @@ print(parse.make_dict(test_table, 1))
 
     <span class="post-date">Jan 25, 2016</span>
 
-    
-
-<p>The Cityholla project was a finalist for the city of Santa Monica <a href="http://hackthebeach.com/contest/">&ldquo;Hack the Beach&rdquo;</a> contest 2015.</p>
+    <p>The Cityholla project was a finalist for the city of Santa Monica <a href="http://hackthebeach.com/contest/">&ldquo;Hack the Beach&rdquo;</a> contest 2015.  The code repo is private, but here is our landing page at <a href="http://www.cityholla.com/">cityholla.com</a>.</p>
 
 <p>They say that Moore&rsquo;s law only applies to hardware, but I agree with <a href="http://www.kurzweilai.net/">Ray Kurzweil</a> that software is also advancing at a more than linear rate.</p>
 
-<h1 id="landing-page:a49397842d3bcbafe692d19dec0e020b">Landing Page</h1>
+<p>I got a text on Sunday to create a landing page to display details and collect emails.  I had the site up and running on heroku that very night.  (Thanks <a href="https://gohugo.io/">Hugo</a>.)</p>
 
-<p>The project lead, who is a friend, sent me a text on Sunday to create a landing page to display details and collect emails.  I had the site up and running on heroku that very night.  (Thanks <a href="https://gohugo.io/">Hugo</a>.)</p>
-
-<p>Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.</p>
+<p>Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.  The landing page code is public.</p>
 
 <pre><code class="language-git">git clone https://github.com/ojones/cityhollalanding.git
 </code></pre>
-
-<p>You can view the rendered site at <a href="http://www.cityholla.com/">cityholla.com</a>.</p>
 
   </div>
   
@@ -217,7 +221,7 @@ print(parse.make_dict(test_table, 1))
 
     
 
-<pre><code class="language-git">git clone https://github.com/ojones/wikipedia_parser.git
+<pre><code class="language-git">$ pip install wikipedia_parser
 </code></pre>
 
 <h2 id="synopsis:907c88537397ec981ae3b6c17395c58b">Synopsis</h2>
@@ -228,9 +232,10 @@ print(parse.make_dict(test_table, 1))
 
 <p>Instantiate Wikipedia API object with page name or id:</p>
 
-<pre><code class="language-python"># wikipedia id can be digit or name (redirects are handled :)
-page = 'Ada_Lovelace'
-wiki_api = WikipediaAPI(page)
+<pre><code class="language-python">from wikipedia_parser.wikipedia_api import WikipediaAPI
+# wikipedia search id can be digit or name (redirects are handled :)
+search_id = 'Ada_Lovelace'
+wiki_api = WikipediaAPI(search_id)
 </code></pre>
 
 <p>Here is the print list of available api resources</p>
@@ -250,7 +255,8 @@ wiki_api = WikipediaAPI(page)
 
 <p>If an infobox is present on page, you can parse the infobox data:</p>
 
-<pre><code class="language-python"># wiki text can be from anywhere, does not need to come from WikipediaAPI object
+<pre><code class="language-python">from wikipedia_parser.infobox import Infobox
+# wiki text can be from anywhere, does not need to come from WikipediaAPI object
 wiki_text = wiki_api.wiki_text
 infobox = Infobox(wiki_text)
 </code></pre>
@@ -266,53 +272,69 @@ infobox = Infobox(wiki_text)
     'template_name']
 </code></pre>
 
-<p>Infobox &ldquo;data&rdquo; is a dict of plain_text (ie no wiki templates), raw_text, and wiki links to other pages.
-<br>Compare with <a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada_Lovelace</a>:</p>
+<p>Infobox &ldquo;data&rdquo; is a dict with keys and values from wikipedia page&rsquo;s infobox (if page has infobox).
+<br>Each key field in data returns a dict with values for &lsquo;plain_text&rsquo;, &lsquo;raw_text&rsquo;, and &lsquo;wiki_links&rsquo;.
+<br>Compare with <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Ada_Lovelace</a></p>
 
-<pre><code class="language-python">{   u'birth_date': {   'plain_text': u'',
-                       'raw_text': u'{{birth date|1815|12|10|df=yes}}',
-                       'wiki_links': []},
-    u'birth_name': {   'plain_text': u'The Hon. Augusta Ada Byron',
-                       'raw_text': u'The Hon. Augusta Ada Byron',
-                       'wiki_links': []},
-    u'birth_place': {   'plain_text': u'London, England',
-                        'raw_text': u'London, England',
-                        'wiki_links': []},
-    u'caption': {   'plain_text': u'Ada, Countess of Lovelace, 1840',
-                    'raw_text': u'Ada, Countess of Lovelace, 1840',
-                    'wiki_links': []},
-    u'children': {   'plain_text': u'',
-                     'raw_text': u'{{plainlist |\n* [[Byron King-Noel, Viscount Ockham|Byron King-Noel, Viscount Ockham and 12th Baron Wentworth]]\n* [[Anne Blunt, 15th Baroness Wentworth]]\n* [[Ralph King-Milbanke, 2nd Earl of Lovelace]]}}',
-                     'wiki_links': [   u'Byron King-Noel, Viscount Ockham',
-                                       u'Anne Blunt, 15th Baroness Wentworth',
-                                       u'Ralph King-Milbanke, 2nd Earl of Lovelace']},
-    u'death_date': {   'plain_text': u'',
-                       'raw_text': u'{{death date and age|1852|11|27|1815|12|10|df=yes}}',
-                       'wiki_links': []},
-    u'death_place': {   'plain_text': u'Marylebone, London, England',
-                        'raw_text': u'[[Marylebone]], London, England',
-                        'wiki_links': [u'Marylebone']},
-    u'field': {   'plain_text': u'Mathematics, computing',
-                  'raw_text': u'Mathematics, computing',
-                  'wiki_links': []},
-    u'image': {   'plain_text': u'Ada Lovelace portrait.jpg',
-                  'raw_text': u'Ada Lovelace portrait.jpg',
-                  'wiki_links': []},
-    u'name': {   'plain_text': u'Ada, Countess of Lovelace',
-                 'raw_text': u'Ada, Countess of Lovelace',
-                 'wiki_links': []},
-    u'parents': {   'plain_text': u'',
-                    'raw_text': u'{{plainlist |\n* [[Lord Byron|George Gordon Byron, 6th Baron Byron]]\n* [[Anne Isabella Byron, Baroness Byron|Anne Isabella Milbanke, 11th Baroness Wentworth]]\n  }}',
-                    'wiki_links': [u'Lord Byron', u'Anne Isabella Byron, Baroness Byron']},
-    u'resting_place': {   'plain_text': u'Church of St. Mary Magdalene, Hucknall, Nottingham, England',
-                          'raw_text': u'[[Church of St. Mary Magdalene, Hucknall]], Nottingham, England',
-                          'wiki_links': [u'Church of St. Mary Magdalene, Hucknall']},
-    u'spouse': {   'plain_text': u'William King-Noel, 1st Earl of Lovelace',
-                   'raw_text': u'[[William King-Noel, 1st Earl of Lovelace]]',
-                   'wiki_links': [u'William King-Noel, 1st Earl of Lovelace']},
-    u'title': {   'plain_text': u'Countess of Lovelace',
-                  'raw_text': u'Countess of Lovelace',
-                  'wiki_links': []}}
+<pre><code class="language-python"># infobox.data for &quot;Ada_Lovelace&quot; returns:
+{u'birth_date': {
+    'plain_text': u'',
+    'raw_text': u'{{birth date|1815|12|10|df=yes}}',
+    'wiki_links': []},
+u'birth_name': {
+    'plain_text': u'The Hon. Augusta Ada Byron',
+    'raw_text': u'The Hon. Augusta Ada Byron',
+    'wiki_links': []},
+u'birth_place': {
+    'plain_text': u'London, England',
+    'raw_text': u'London, England',
+    'wiki_links': []},
+u'caption': {
+    'plain_text': u'Ada, Countess of Lovelace, 1840',
+    'raw_text': u'Ada, Countess of Lovelace, 1840',
+    'wiki_links': []},
+u'children': {
+    'plain_text': u'',
+    'raw_text': u'{{plainlist |\n* [[Byron King-Noel, Viscount Ockham|Byron King-Noel, Viscount Ockham and 12th Baron Wentworth]]\n* [[Anne Blunt, 15th Baroness Wentworth]]\n* [[Ralph King-Milbanke, 2nd Earl of Lovelace]]}}',
+    'wiki_links': [u'Byron King-Noel, Viscount Ockham',
+                   u'Anne Blunt, 15th Baroness Wentworth',
+                   u'Ralph King-Milbanke, 2nd Earl of Lovelace']},
+u'death_date': {
+    'plain_text': u'',
+    'raw_text': u'{{death date and age|1852|11|27|1815|12|10|df=yes}}',
+    'wiki_links': []},
+u'death_place': {
+    'plain_text': u'Marylebone, London, England',
+    'raw_text': u'[[Marylebone]], London, England',
+    'wiki_links': [u'Marylebone']},
+u'field': {
+    'plain_text': u'Mathematics, computing',
+    'raw_text': u'Mathematics, computing',
+    'wiki_links': []},
+u'image': {
+    'plain_text': u'Ada Lovelace portrait.jpg',
+    'raw_text': u'Ada Lovelace portrait.jpg',
+    'wiki_links': []},
+u'name': {
+    'plain_text': u'Ada, Countess of Lovelace',
+    'raw_text': u'Ada, Countess of Lovelace',
+    'wiki_links': []},
+u'parents': {
+    'plain_text': u'',
+    'raw_text': u'{{plainlist |\n* [[Lord Byron|George Gordon Byron, 6th Baron Byron]]\n* [[Anne Isabella Byron, Baroness Byron|Anne Isabella Milbanke, 11th Baroness Wentworth]]\n  }}',
+    'wiki_links': [u'Lord Byron', u'Anne Isabella Byron, Baroness Byron']},
+u'resting_place': {
+    'plain_text': u'Church of St. Mary Magdalene, Hucknall, Nottingham, England',
+    'raw_text': u'[[Church of St. Mary Magdalene, Hucknall]], Nottingham, England',
+    'wiki_links': [u'Church of St. Mary Magdalene, Hucknall']},
+u'spouse': {
+    'plain_text': u'William King-Noel, 1st Earl of Lovelace',
+    'raw_text': u'[[William King-Noel, 1st Earl of Lovelace]]',
+    'wiki_links': [u'William King-Noel, 1st Earl of Lovelace']},
+u'title': {
+    'plain_text': u'Countess of Lovelace',
+    'raw_text': u'Countess of Lovelace',
+    'wiki_links': []}}
 </code></pre>
 
 <h2 id="motivation:907c88537397ec981ae3b6c17395c58b">Motivation</h2>
@@ -323,12 +345,17 @@ infobox = Infobox(wiki_text)
 
 <p>Currently only works on Python 2.7 :(</p>
 
-<pre><code class="language-git">&gt; python setup.py install
+<pre><code class="language-git">$ pip install wikipedia_parser
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-git">git clone https://github.com/ojones/wikipedia_parser.git
 </code></pre>
 
 <h2 id="tests:907c88537397ec981ae3b6c17395c58b">Tests</h2>
 
-<pre><code class="language-git">&gt; py.text
+<pre><code class="language-git">$ py.test
 </code></pre>
 
 <h2 id="contributors:907c88537397ec981ae3b6c17395c58b">Contributors</h2>

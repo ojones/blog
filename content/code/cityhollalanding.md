@@ -6,16 +6,13 @@ vanity = "https://github.com/ojones/cityhollalanding"
 
 +++
 
-The Cityholla project was a finalist for the city of Santa Monica ["Hack the Beach"](http://hackthebeach.com/contest/) contest 2015.  
+The Cityholla project was a finalist for the city of Santa Monica ["Hack the Beach"](http://hackthebeach.com/contest/) contest 2015.  The code repo is private, but here is our landing page at [cityholla.com](http://www.cityholla.com/).
 
 They say that Moore's law only applies to hardware, but I agree with [Ray Kurzweil](http://www.kurzweilai.net/) that software is also advancing at a more than linear rate.
 
-# Landing Page
+I got a text on Sunday to create a landing page to display details and collect emails.  I had the site up and running on heroku that very night.  (Thanks [Hugo](https://gohugo.io/).)
 
-The project lead, who is a friend, sent me a text on Sunday to create a landing page to display details and collect emails.  I had the site up and running on heroku that very night.  (Thanks [Hugo](https://gohugo.io/).)
-
-Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.
+Just a couple years ago, this same splash page would have taken a team of front end engineers a full 2 week sprint.  The landing page code is public.
 ```git
 git clone https://github.com/ojones/cityhollalanding.git
 ```
-You can view the rendered site at [cityholla.com](http://www.cityholla.com/).
