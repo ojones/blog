@@ -10,5 +10,7 @@ Circa 2015, I worked at [Intuit](https://www.intuit.com/) as a member of the Qui
 {{< youtube JfZfuo3C-qo >}} 
 
 <br>
-We were trying to solve a big problem in a big way.  Despite having the greatest database and expertise for all US licenses and permits, our entire Santa Monica office was cut.  Too bad, our NPS was consistently above 50.  We could have been the TurboTax for government licenses.
+We were trying to solve a big problem in a big way.  Despite having the greatest database and expertise for all US licenses and permits, our entire Santa Monica office was cut.  
+
+Too bad, our NPS was consistently above 50.  We could have been the TurboTax for government licenses.
 

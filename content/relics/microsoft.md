@@ -12,6 +12,6 @@ Remember these:
 {{< figure src="/blog/relics/images/win7.png" title="Windows 7" >}}
 {{< figure src="/blog/relics/images/office_2010.png" title="Office 2010" >}}
 
-Well I worked on the msn.com tour, the Windows 7 registration page, and Office 2010 registration page.  
+I worked on the msn.com tour, the Windows 7 registration page, and Office 2010 registration.  Each of which were small, but high taffic web applications.
 
-Flash, localization, Rackspace.  Those were good days (wait, were they).  I was still a new developer but my websites were getting seven figure hits.
+Flash, localization, Rackspace.  Those were good days (wait, were they).
