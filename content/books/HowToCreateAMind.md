@@ -1,10 +1,10 @@
 +++
 date = "2014-02-11T19:25:22-08:00"
-title = "How To Build A Brain"
+title = "How To Create A Mind"
 menu = "books"
 +++
 
-[Ray Kurzweil](http://www.kurzweilai.net/ray-kurzweil-biography) does it again, and even better this time.  Unlike The Singularity Is Near, this [book](http://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0190262125) pulls no punches for the technically timmid.
+[Ray Kurzweil](http://www.kurzweilai.net/ray-kurzweil-biography) does it again, and even better this time.  Unlike The Singularity Is Near, this [book](http://www.amazon.com/How-Create-Mind-Thought-Revealed/dp/1491518839) pulls no punches for the technically timmid.
 
 Kurzweil explains his controversial confidence that the way to AI is by reconstructing the human brain as a digital algorithm.  In fact, he asserts that for as complicated as the brain is, there may be only one algorithm at work.  And WHEN we do find it, there is no technical reason for why it can’t be duplicated.
 
