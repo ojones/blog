@@ -11,11 +11,11 @@ Our team made the screener app for the Oscar's the same year we won for 12 Years
 
 {{< figure src="/blog/relics/images/12-years-a-slave.jpg" title="12 Years A Slave Won" >}}
 
-After making a few screener apps (web and mobile), we thought why not make a generic admin tool so anyone at fox can share copyrighted video content.
+After making a few screener apps (web and mobile), we thought why not make a generic admin tool so anyone at Fox can share copyrighted video content.
 
 {{< figure src="/blog/relics/images/fox_admin.png" title="Generic Screener Admin" >}}
 
-This is the movie industry so we can't just put things on youtube.  We have a DRM process for everything.  That takes asset management, tracking, and Telerik.
+This is the industry so we can't just put things on youtube.  We have a DRM process for everything.  That takes asset management, tracking, and Telerik.
 
 {{< figure src="/blog/relics/images/fox_asset_mgr.png" title="DRM Asset Manager" >}}
 
