@@ -94,7 +94,7 @@ print(parse.make_dict(test_table, 1))
 
 &lt;p&gt;What does he &amp;ldquo;kill&amp;rdquo; exactly?  Pessimism.  Well at least the most popular excuses for it.&lt;/p&gt;
 
-&lt;p&gt;That alone is a good reason to read this.  It&amp;rsquo;s not a self help, or make your startup rich book.  Rather it&amp;rsquo;s an intellectual frame for the future and how to take part in it.&lt;/p&gt;
+&lt;p&gt;That alone is a good reason to read this.  It&amp;rsquo;s not a self help or make your startup rich book.  Rather it&amp;rsquo;s an intellectual frame for the future and how to take part in it.&lt;/p&gt;
 
 &lt;p&gt;It challenges popular viewpoints in economics and technology.  Even I was hurt and offended at parts.  But Thiel makes a strong case and I won&amp;rsquo;t discount his message just because I don&amp;rsquo;t see eye to eye on every line.&lt;/p&gt;
 </description>
@@ -306,7 +306,7 @@ u&#39;title&#39;: {
       <pubDate>Mon, 10 Aug 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/about/</guid>
-      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://www.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph &amp;trade; powered by Neo4j.&lt;/p&gt;
+      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://www.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph&amp;trade; powered by Neo4j.&lt;/p&gt;
 
 &lt;p&gt;I love coding in Python, Javascript, and C#, but am also interested in modern functional languages (Ruby is cool too).  This blog is powered by Hugo, which is coded in Go.&lt;/p&gt;
 </description>
