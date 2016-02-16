@@ -11,7 +11,7 @@
     <atom:link href="http://ojones.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Best HTML Table Parser</title>
+      <title>Better HTML Table Parser</title>
       <link>http://ojones.github.io/blog/html_table_parser/</link>
       <pubDate>Fri, 21 Oct 2016 19:25:22 -0800</pubDate>
       
@@ -132,7 +132,7 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
-      <title>Best Wikipedia Parser</title>
+      <title>Better Wikipedia Parser</title>
       <link>http://ojones.github.io/blog/wikipedia_parser/</link>
       <pubDate>Fri, 02 Oct 2015 19:25:22 -0800</pubDate>
       
