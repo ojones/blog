@@ -11,7 +11,7 @@ Our team made the screener app for the Oscar's the same year we won for 12 Years
 
 {{< figure src="/blog/relics/images/12-years-a-slave.jpg" title="12 Years A Slave Won" >}}
 
-After making a few screener apps (web and mobile), we thought why not make a generic admin tool so anyone at Fox can share copyrighted video content.
+After making a few screener apps (web and mobile), we thought why not make a generic admin tool so anyone at fox can share copyrighted video content.
 
 {{< figure src="/blog/relics/images/fox_admin.png" title="Generic Screener Admin" >}}
 
