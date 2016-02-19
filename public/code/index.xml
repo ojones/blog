@@ -90,7 +90,7 @@ print(parse.make_dict(test_table, 1))
       <pubDate>Mon, 25 Jan 2016 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/cityhollalanding/</guid>
-      <description>&lt;p&gt;The Cityholla project was a finalist for the city of Santa Monica &lt;a href=&#34;http://hackthebeach.com/contest/&#34;&gt;&amp;ldquo;Hack the Beach&amp;rdquo;&lt;/a&gt; contest 2015.  The code repo is private, but here is our landing page at &lt;a href=&#34;http://www.cityholla.com/&#34;&gt;cityholla.com&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The Cityholla project was a finalist for the city of Santa Monica &lt;a href=&#34;http://hackthebeach.com/contest/&#34;&gt;&amp;ldquo;Hack the Beach&amp;rdquo;&lt;/a&gt; contest 2015.  The code repo is private, but you can see our splash page &lt;a href=&#34;https://desolate-lake-19599.herokuapp.com/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;They say that Moore&amp;rsquo;s law only applies to hardware, but I agree with &lt;a href=&#34;http://www.kurzweilai.net/&#34;&gt;Ray Kurzweil&lt;/a&gt; that software is also advancing at a more than linear rate.&lt;/p&gt;
 

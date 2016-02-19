@@ -6,7 +6,7 @@ vanity = "https://github.com/ojones/cityhollalanding"
 
 +++
 
-The Cityholla project was a finalist for the city of Santa Monica ["Hack the Beach"](http://hackthebeach.com/contest/) contest 2015.  The code repo is private, but here is our landing page at [cityholla.com](http://www.cityholla.com/).
+The Cityholla project was a finalist for the city of Santa Monica ["Hack the Beach"](http://hackthebeach.com/contest/) contest 2015.  The code repo is private, but you can see our splash page [here](https://desolate-lake-19599.herokuapp.com/).
 
 They say that Moore's law only applies to hardware, but I agree with [Ray Kurzweil](http://www.kurzweilai.net/) that software is also advancing at a more than linear rate.
 
