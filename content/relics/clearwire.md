@@ -5,7 +5,7 @@ menu = "relics"
 
 +++
 
-Circa 2010, [Clearwire](http://www.clear.com/) had just changed their name to Clear.  That was the beginning of the end.  They were just a little ahead of their time.
+Circa 2011, [Clearwire](http://www.clear.com/) had just changed their name to Clear.  That was the beginning of the end.  They were just a little ahead of their time.
 
 {{< figure src="/blog/relics/images/clearwire.png" title="Clearwire" >}}
 

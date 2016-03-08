@@ -5,7 +5,7 @@ menu = "relics"
 
 +++
 
-Circa 2011, I worked on a top secret project for [Disney](http://www.disneystore.com/magicband/mn/1024701/). Code words, security... really can't say anymore.
+Circa 2013, I worked on a top secret project for [Disney](http://www.disneystore.com/magicband/mn/1024701/). Code words, security... really can't say anymore.
 
 {{< figure src="/blog/relics/images/disney.png" title="Disney MagicBand" >}}
 

@@ -5,7 +5,7 @@ menu = "relics"
 
 +++
 
-Circa 2009, like most Microsoft employees, I was a contractor.  Through [Catalysis](https://www.catalysis.com/) I worked on a number of high profile projects.
+Circa 2010, like most Microsoft employees, I was a contractor.  Through [Catalysis](https://www.catalysis.com/) I worked on a number of high profile projects.
 
 Remember these:
 {{< figure src="/blog/relics/images/msn.png" title="msn.com (2010)" >}}
