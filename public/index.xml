@@ -85,6 +85,18 @@ print(parse.make_dict(test_table, 1))
     </item>
     
     <item>
+      <title>About</title>
+      <link>http://ojones.github.io/blog/about/</link>
+      <pubDate>Wed, 10 Feb 2016 19:25:22 -0800</pubDate>
+      
+      <guid>http://ojones.github.io/blog/about/</guid>
+      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://www.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph&amp;trade; powered by Neo4j.&lt;/p&gt;
+
+&lt;p&gt;I love coding in Python, Javascript, and C#, but am also interested in modern functional languages (Ruby is cool too).  This blog is powered by Hugo, which is coded in Go.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Zero To One</title>
       <link>http://ojones.github.io/blog/books/ZeroToOne/</link>
       <pubDate>Tue, 09 Feb 2016 19:25:22 -0800</pubDate>
@@ -297,18 +309,6 @@ u&#39;title&#39;: {
 &lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/peter-seibel-39518a72&#34;&gt;Peter Seibel&lt;/a&gt; has been to the top of the mountain.  In his &lt;a href=&#34;http://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483&#34;&gt;book&lt;/a&gt; he interviews 15 of the greats on their history, their code practices and beliefs.  In effect, he attempts to answer: what is it that great programmers have in common?&lt;/p&gt;
 
 &lt;p&gt;You wouldn&amp;rsquo;t believe it if I told you, so my recommendation is to read it, and see the truth for yourself.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://ojones.github.io/blog/about/</link>
-      <pubDate>Mon, 10 Aug 2015 19:25:22 -0800</pubDate>
-      
-      <guid>http://ojones.github.io/blog/about/</guid>
-      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://www.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph&amp;trade; powered by Neo4j.&lt;/p&gt;
-
-&lt;p&gt;I love coding in Python, Javascript, and C#, but am also interested in modern functional languages (Ruby is cool too).  This blog is powered by Hugo, which is coded in Go.&lt;/p&gt;
 </description>
     </item>
     
