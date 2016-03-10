@@ -191,17 +191,16 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <pubDate>Fri, 27 Nov 2009 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/microsoft/</guid>
-      <description>&lt;p&gt;Circa 2010, like most Microsoft employees, I was a contractor.  Through &lt;a href=&#34;https://www.catalysis.com/&#34;&gt;Catalysis&lt;/a&gt; I worked on a number of high profile projects.&lt;/p&gt;
+      <description>&lt;p&gt;Circa 2010, like most Microsoft employees, I was a contractor.  Through &lt;a href=&#34;https://www.catalysis.com/&#34;&gt;Catalysis&lt;/a&gt; I worked on a some high profile projects including the Windows 7 registration page, Office 2010 registration page, and MSN.com tour.  Each of these projects were small in terms of content, but had high taffic functionality.&lt;/p&gt;
 
-&lt;p&gt;Remember these:
-
+&lt;p&gt;
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/msn.png&#34; /&gt;
+        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/office_2010.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;msn.com (2010)&lt;/h4&gt;
+        &lt;h4&gt;Office 2010&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -219,24 +218,29 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The registration pages required update and insert write access.  To avoid security concerns of SQL injection (cross browser security was big then), we opted for stored procedures.  This allowed us to go heavy on database hardware while maintaining a small frontend with a secure data access layer.  If I could go back in time, I would have implemented a queue and reserved backend resources when traffic was not high.&lt;/p&gt;
+
+&lt;p&gt;The frontend challenge was to localize Windows 7 and Office 2010 pages into over 70 languages.  Having a flexible UI to accommodate differing paragraph and input text lengths required lots of manual testing.  Making the localization performant took some time.&lt;/p&gt;
+
+&lt;p&gt;The MSN.com tour was a project to promote MSN.com redesign.  Microsoft Window&amp;rsquo;s butterfly was a key part.&lt;/p&gt;
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/office_2010.png&#34; /&gt;
+        &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/msn.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Office 2010&lt;/h4&gt;
+        &lt;h4&gt;msn.com (2010)&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-&lt;/p&gt;
 
-&lt;p&gt;I worked on the msn.com tour, the Windows 7 registration page, and Office 2010 registration.  Each of which were small, but high taffic web applications.&lt;/p&gt;
 
-&lt;p&gt;Flash, localization, Rackspace.  Those were good days (wait, were they).&lt;/p&gt;
+&lt;p&gt;We contracted the hard stuff to be done in both Flash and Silverlight.  This way the functionality happened on the client.  I created a wrapper website and we deployed the Flash and Silverlight files to Rackspace.  Back then we used to talk about HTML 5 the way we talk about web assembly today.  It&amp;rsquo;s funny how time change and don&amp;rsquo;t.&lt;/p&gt;
 </description>
     </item>
     
