@@ -18,9 +18,9 @@ Using combination of pivotal, dropbox, and google sheets, our two week sprints b
 
 With 4 senior engineers including myself, we could all transition from the frontend to the backend.  There were no walls between tasks and we could easily trade work loads if it helped the sprint timeline.  This project was proof to me that Agile Scrum can work the way it promises.  
 
-The trick is to apply a fun and consistent sprint routine that encourages ownership.  We did it by working hand in hand with design and volunteering for agreed upon sprint goals.  Our user stories and designs were ready day one of the sprint.  Each day we wrote our task progress on a white board everyone could see.  Finished tasks were confirmed daily by management or designer and reflected in Pivotal Tracker.
-
 {{< figure src="/blog/relics/images/docstoc-congrats.jpeg" title="1 Million Subscribers" >}}
+
+The trick is to apply a fun and consistent sprint routine that encourages ownership.  We did it by working hand in hand with design and volunteering for agreed upon sprint goals.  Our user stories and designs were ready day one of the sprint.  Each day we wrote our task progress on a white board everyone could see.  Finished tasks were confirmed daily by management or designer and reflected in Pivotal Tracker.
 
 When you know what's done every day, you can see what's left to do.  And when you're rooting for eachother and there are no wall between frontend and backend, you can help eachother win every sprint.
 
