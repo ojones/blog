@@ -90,7 +90,7 @@ print(parse.make_dict(test_table, 1))
       <pubDate>Wed, 10 Feb 2016 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/about/</guid>
-      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://www.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph&amp;trade; powered by Neo4j.&lt;/p&gt;
+      <description>&lt;p&gt;I am a software engineer at &lt;a href=&#34;https://developer.mediahound.com/&#34;&gt;Mediahound&lt;/a&gt; where I work on The Entertainment Graph&amp;trade; powered by Neo4j.&lt;/p&gt;
 
 &lt;p&gt;I love coding in Python, Javascript, and C#, but am also interested in modern functional languages (Ruby is cool too).  This blog is powered by Hugo, which is coded in Go.&lt;/p&gt;
 </description>
