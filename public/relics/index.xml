@@ -193,7 +193,7 @@ We were trying to solve a big problem in a big way.  Become the premiere informa
       <pubDate>Tue, 02 Nov 2010 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/clearwire/</guid>
-      <description>&lt;p&gt;Circa 2011, &lt;a href=&#34;http://www.clear.com/&#34;&gt;Clearwire&lt;/a&gt; had just changed their name to Clear.  That was the beginning of the end.  They were just a little ahead of their time.&lt;/p&gt;
+      <description>&lt;p&gt;Circa 2011, &lt;a href=&#34;http://www.clear.com/&#34;&gt;Clearwire&lt;/a&gt; had just changed their name to Clear.  That was the beginning of the end.  They may just have been a little too ahead of their time.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -210,6 +210,10 @@ We were trying to solve a big problem in a big way.  Become the premiere informa
 
 
 &lt;p&gt;Working as a consultant for Accenture, we handled their build and deployment process.  We were using Jenson before there even was a Jenson (just Hudson), and Maven was my new best friend.&lt;/p&gt;
+
+&lt;p&gt;By centralizing pom file requirements we were able to control integration testing.  I also maintained an internal GUI built on PHP to view test and development servers.  Any engineer could see what was deployed where and what the health of the service currently was.&lt;/p&gt;
+
+&lt;p&gt;Now a days we have Octopus and Kibana.  Still it was amazing what you could do with some shell scripting and PHP alone.&lt;/p&gt;
 </description>
     </item>
     
