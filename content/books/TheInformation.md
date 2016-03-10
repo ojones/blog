@@ -12,7 +12,7 @@ Species come and go, but The Information is forever.  So what does this mean to 
 
 I've often heard that you have to know your history to know your future.  I thought that was just something that history professor's said to defend their diminishing economic utility.  But Gleick artfully illustrates how our world is most influenced by a background song that never ends.
 
-Following the tune from indigenous Africa, through Ada Lovelace, and Richard Dawkins, Gleick clues us into what's really going on.
+Following the tune from indigenous Africa, passed Ada Lovelace, and through Richard Dawkins, Gleick clues us into what's really going on.
 
 
 
