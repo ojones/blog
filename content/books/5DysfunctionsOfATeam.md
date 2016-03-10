@@ -10,4 +10,4 @@ Although he made referenced his [book](http://www.amazon.com/Five-Dysfunctions-T
 
 We learn more by story than fact, and Lencioni's fable is yet another credit to that truth.  With preconceived notions that this book would not be worth the time, I picked it up off my manager's desk just to glance.  I didn't put it back down until it was finished.  
 
-Through his clever tale, the lessons come to life.  Even if you are on a fantastic team (as I was) you will find that learning about the dysfunctions you will invariably encounter, to be a pleasure.
+Through his clever tale, the lessons come to life.  Even if you are on a fantastic team (as I was) you will find learning about the dysfunctions you will invariably encounter, to be a pleasure.
