@@ -17,7 +17,7 @@ My short experience in DevOps with Clearwire afforded our service team the credi
 
 {{< figure src="/blog/relics/images/Disney-MagicBand.jpg" title="RFID Guest Experience" >}}
 
-And of course, we had a third party ESB and a third party cron manager.  Interacting with B2B software was beginning to take up my whole day.  Working with Java Hibernate was no picnic either, especially when our database schema as changing weekly.  Yet through challenge comes triumph.  So I am ever thankful to the stakeholders of the **** project.
+And of course, we had a third party ESB and a third party cron manager.  Interacting with B2B software was beginning to take up my whole day.  Working with Java Hibernate was no picnic either, especially when our database schema was changing weekly.  Yet through challenge comes triumph.  So I am ever thankful to the stakeholders of the **** project.
 
 
 
