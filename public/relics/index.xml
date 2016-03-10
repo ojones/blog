@@ -139,7 +139,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <pubDate>Sat, 09 Jul 2011 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/relics/disney/</guid>
-      <description>&lt;p&gt;Circa 2013, I worked on a top secret project for &lt;a href=&#34;http://www.disneystore.com/magicband/mn/1024701/&#34;&gt;Disney&lt;/a&gt;. Code words, security&amp;hellip; really can&amp;rsquo;t say anymore.&lt;/p&gt;
+      <description>&lt;p&gt;For almost 3 years, I worked on a top secret project for &lt;a href=&#34;http://www.disneystore.com/magicband/mn/1024701/&#34;&gt;Disney&lt;/a&gt;.  They launched in late 2013.  Of all my projects, I look back upon this one with the fondness of seeing something through from begining to end.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -155,9 +155,13 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
 &lt;/figure&gt;
 
 
-&lt;p&gt;Working as a consultant for Accenture, my team ran the key service which all others depended upon.  It was great to see a project go from napkin drawings to RFID chips, molds, around the world, into customer homes, and onto happy children&amp;rsquo;s wrists.  I still have mine from the first production ready batch.&lt;/p&gt;
+&lt;p&gt;Working as a consultant for Accenture, my team ran the key service upon which all others depended.  It was great to see a project go from napkin drawings to RFID chips, molds, around the world, into customer homes, and onto happy children&amp;rsquo;s wrists.  I still have mine from the first production ready batch.&lt;/p&gt;
 
-&lt;p&gt;With tens of engineers, hundreds of service endpoints, and millions of customers, you learn a lot about what it takes to make magic.&lt;/p&gt;
+&lt;p&gt;With tens of engineers, hundreds of service endpoints, and millions of customers, you learn a lot about what it takes to make magic.  Coordination was currency and as our dev team&amp;rsquo;s service and infrastructure liason I had my arms full.&lt;/p&gt;
+
+&lt;p&gt;My short experience in DevOps with Clearwire afforded our service team the credit to lead the heard of 50 or service teams.  Having a previous contract with Atlassian, I forged ahead with a Bamboo build and deployment process using Nexus.  We later moved to UDeploy which put much more power into QA and analysts hands.&lt;/p&gt;
+
+&lt;p&gt;And of course, we had a third party ESB and a third party cron manager.  Interacting with B2B software was beginning to take up my whole day.  Working with Java Hibernate was no picnic either, especially when our database schema as changing weekly.  Yet through challenge comes triumph.  So I am ever thankful the stakeholders of the **** project.&lt;/p&gt;
 </description>
     </item>
     
