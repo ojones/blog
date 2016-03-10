@@ -10,7 +10,7 @@ In the information age, is it any wonder that the companies that gather the most
 
 Lanier's [book](http://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654979) is an almalgamation of his perspective on technology, econmics and the future.  Instead of fearing the AI singularity, which he feels is laughable, Lanier believes that society must take ownership of their online data, before the "siren servers" destroy our economy.
 
-Lanier's claim's that these economic concerns and solutions are not predictions, but eventuallities.  His hope is that we learn our economic lessons sooner, rather than after a century long recession.
+Lanier's claim's that these concerns and solutions are not predictions, but eventuallities.  His hope is that we learn our economic lessons sooner, rather than after a century long recession.
 
 In the end, it's tough to make the call.  Lanier or Kurzweil.  Kurzeil or Lanier.  Both have been around so long and seen so much.  Both are renegades headed in opposite directions.  I think they go great together.
 
