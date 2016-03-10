@@ -15,6 +15,8 @@ With tens of engineers, hundreds of service endpoints, and millions of customers
 
 My short experience in DevOps with Clearwire afforded our service team the credit to lead the heard of 50 or service teams.  Having a previous contract with Atlassian, I forged ahead with a Bamboo build and deployment process using Nexus.  We later moved to UDeploy which put much more power into QA and analysts hands.
 
+{{< figure src="/blog/relics/images/disney.png" title="Disney MagicBand" >}}
+
 And of course, we had a third party ESB and a third party cron manager.  Interacting with B2B software was beginning to take up my whole day.  Working with Java Hibernate was no picnic either, especially when our database schema as changing weekly.  Yet through challenge comes triumph.  So I am ever thankful to the stakeholders of the **** project.
 
 
