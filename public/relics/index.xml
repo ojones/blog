@@ -39,7 +39,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
       <guid>http://ojones.github.io/blog/relics/fox/</guid>
       <description>&lt;p&gt;Circa 2014, I worked at &lt;a href=&#34;http://www.foxmovies.com/&#34;&gt;Fox&lt;/a&gt; as a member of the &amp;ldquo;Dev Dream Team.&amp;rdquo;  Everything they say about the movie business is true (even for the engineers).  Still we got to make a bunch of cool screener apps really quickly.&lt;/p&gt;
 
-&lt;p&gt;My team made the screener app for the Oscar&amp;rsquo;s the same year we won for 12 Years A Slave.  I just want to thank The Academy&amp;hellip; and Jesus.&lt;/p&gt;
+&lt;p&gt;Our team made the screener app for the Oscar&amp;rsquo;s the same year we won for 12 Years A Slave.  I just want to thank The Academy&amp;hellip; and Jesus.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -73,7 +73,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
 
 &lt;p&gt;This is the industry so we can&amp;rsquo;t just put things on youtube.  We have a DRM process for everything.  That takes asset management, tracking, and Telerik.&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;figure &gt;
     
         &lt;img src=&#34;http://ojones.github.io/blog/blog/relics/images/fox_asset_mgr.png&#34; /&gt;
@@ -85,7 +85,7 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;But why stop there, let&amp;rsquo;s make an asset monolith with teams from all over the world.  You give me the designs, I give you back Knockout templates.&lt;/p&gt;
 
@@ -128,6 +128,8 @@ We were trying to solve a big problem in a big way.  Despite having the greatest
     
 &lt;/figure&gt;
 &lt;/p&gt;
+
+&lt;p&gt;This was a great contract project from which I learned a lot about frontend frameworks.  But when politics are the leading priority, results can only get so good.&lt;/p&gt;
 </description>
     </item>
     

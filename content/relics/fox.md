@@ -7,7 +7,7 @@ menu = "relics"
 
 Circa 2014, I worked at [Fox](http://www.foxmovies.com/) as a member of the "Dev Dream Team."  Everything they say about the movie business is true (even for the engineers).  Still we got to make a bunch of cool screener apps really quickly.
 
-My team made the screener app for the Oscar's the same year we won for 12 Years A Slave.  I just want to thank The Academy... and Jesus.
+Our team made the screener app for the Oscar's the same year we won for 12 Years A Slave.  I just want to thank The Academy... and Jesus.
 
 {{< figure src="/blog/relics/images/12-years-a-slave.jpg" title="12 Years A Slave Won" >}}
 
@@ -24,4 +24,6 @@ But why stop there, let's make an asset monolith with teams from all over the wo
 {{< figure src="/blog/relics/images/fox_control1.PNG" title="Fox UI Control" >}}
 {{< figure src="/blog/relics/images/fox_control2.PNG" title="Fox UI Control" >}}
 {{< figure src="/blog/relics/images/fox_control3.PNG" title="Fox UI Control" >}}
+
+This was a great contract project from which I learned a lot about frontend frameworks.  But when politics are the leading priority, results can only get so good.
 
