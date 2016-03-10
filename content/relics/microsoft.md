@@ -14,7 +14,7 @@ The registration pages required update and insert write access.  To avoid securi
 
 The frontend challenge was to localize Windows 7 and Office 2010 pages into over 70 languages.  Having a flexible UI to accommodate differing paragraph and input text lengths required lots of manual testing.  Making the localization performant took some time.
 
-The MSN.com tour was a project to promote MSN.com redesign.  Microsoft Window's butterfly was a key part.
+The MSN.com tour was a project to promote an MSN.com redesign.  Microsoft Window's butterfly was a key part.
 
 {{< figure src="/blog/relics/images/msn.png" title="msn.com (2010)" >}}
 
