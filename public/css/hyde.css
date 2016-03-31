@@ -100,8 +100,8 @@ a.sidebar-nav-item:focus {
 .sidebar-nav li,
 .sidebar-nav li.phone-only {
   display: inline-block;
-  padding-left: 1em;
-  padding-right: 1em; 
+  padding-left: 0.8em;
+  padding-right: 0.8em; 
 }
 
 @media (min-width: 48em) {
