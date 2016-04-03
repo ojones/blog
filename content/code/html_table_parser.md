@@ -1,5 +1,5 @@
 +++
-date = "2016-10-21T19:25:22-08:00"
+date = "2016-03-21T19:25:22-08:00"
 title = "Better HTML Table Parser"
 menu = "code"
 vanity = "https://github.com/ojones/html_table_parser"
