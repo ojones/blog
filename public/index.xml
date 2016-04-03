@@ -23,7 +23,8 @@
 
 &lt;h2 id=&#34;synopsis:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Synopsis&lt;/h2&gt;
 
-&lt;p&gt;Transform html tables into usable data structures.  Using beautiful soup table object, return 2D array structure, dictionary, or array of column data.  Imputes cell values from row and col spans :)&lt;/p&gt;
+&lt;p&gt;Transform html tables into usable data structures.  Using beautiful soup table object, return 2D array structure, dictionary, or array of column data.  Imputes cell values from row and col spans :)
+&lt;a href=&#34;https://pure-river-60450.herokuapp.com/&#34; target=&#34;blank&#34;&gt;demo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;code-example:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Code Example&lt;/h2&gt;
 
@@ -59,7 +60,7 @@ print(parse.make_dict(test_table, 1))
 
 &lt;h2 id=&#34;installation:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Installation&lt;/h2&gt;
 
-&lt;p&gt;Works on Python 2.7 and Python 3.4.&lt;/p&gt;
+&lt;p&gt;Works on Python 2.7 and Python &amp;gt;3.4.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;$ pip install html_table_parser
 &lt;/code&gt;&lt;/pre&gt;
