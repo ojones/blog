@@ -13,7 +13,8 @@ $ pip install html_table_parser
 ## Synopsis
 
 Transform html tables into usable data structures.  Using beautiful soup table object, return 2D array structure, dictionary, or array of column data.  Imputes cell values from row and col spans :)
-<a href="https://pure-river-60450.herokuapp.com/" target="blank">demo</a>
+<br />
+(<a href="https://pure-river-60450.herokuapp.com/" target="blank">demo</a>)
 
 ## Code Example
 

@@ -24,7 +24,8 @@
 &lt;h2 id=&#34;synopsis:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Synopsis&lt;/h2&gt;
 
 &lt;p&gt;Transform html tables into usable data structures.  Using beautiful soup table object, return 2D array structure, dictionary, or array of column data.  Imputes cell values from row and col spans :)
-&lt;a href=&#34;https://pure-river-60450.herokuapp.com/&#34; target=&#34;blank&#34;&gt;demo&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;
+(&lt;a href=&#34;https://pure-river-60450.herokuapp.com/&#34; target=&#34;blank&#34;&gt;demo&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h2 id=&#34;code-example:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Code Example&lt;/h2&gt;
 
