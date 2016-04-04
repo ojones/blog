@@ -21,11 +21,13 @@ Transform html tables into usable data structures.  Using beautiful soup table o
 Given an html table (with or without row and col spans). You can make a 2D array
 ```python
 from bs4 import BeautifulSoup as bs
-from html_table_parser import parser_functions as parse
+from html_table_parser.parser_functions import make2d
+from html_table_parser.parser_functions import twod_col_data
+from html_table_parser.parser_functions import make_dict
 
 soup = bs(YOUR_HTML_TABLE, "html.parser")
 test_table = soup.find('table')
-twod_array = parse.make2d(test_table)
+twod_array = make2d(test_table)
 
 # print 2D array
 print(twod_array)
@@ -33,13 +35,13 @@ print(twod_array)
 Use that 2D array to return column data by heading name
 ```python
 # print column data by col heading name (case insensitive)
-print(parse.twod_col_data(twod_array, 'YOUR_COL_HEADING'))
+print(twod_col_data(twod_array, 'YOUR_COL_HEADING'))
 ```
 Or transform the soup table object (test_table) into a dictionary
 ```python
 # row data begins on first row after col headings
 # so rowstart is 1
-print(parse.make_dict(test_table, 1))
+print(make_dict(test_table, 1))
 ```
 
 ## Motivation
