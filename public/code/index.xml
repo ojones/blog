@@ -32,13 +32,11 @@
 &lt;p&gt;Given an html table (with or without row and col spans). You can make a 2D array&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from bs4 import BeautifulSoup as bs
-from html_table_parser.parser_functions import make2d
-from html_table_parser.parser_functions import twod_col_data
-from html_table_parser.parser_functions import make_dict
+from html_table_parser import parser_functions as parser
 
 soup = bs(YOUR_HTML_TABLE, &amp;quot;html.parser&amp;quot;)
 test_table = soup.find(&#39;table&#39;)
-twod_array = make2d(test_table)
+twod_array = parser.make2d(test_table)
 
 # print 2D array
 print(twod_array)
@@ -47,14 +45,14 @@ print(twod_array)
 &lt;p&gt;Use that 2D array to return column data by heading name&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# print column data by col heading name (case insensitive)
-print(twod_col_data(twod_array, &#39;YOUR_COL_HEADING&#39;))
+print(twod_col_data(parser.twod_array, &#39;YOUR_COL_HEADING&#39;))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or transform the soup table object (test_table) into a dictionary&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# row data begins on first row after col headings
 # so rowstart is 1
-print(make_dict(test_table, 1))
+print(parser.make_dict(test_table, 1))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;motivation:2e8e527b21ef2deedced2078cd8e4e6a&#34;&gt;Motivation&lt;/h2&gt;
