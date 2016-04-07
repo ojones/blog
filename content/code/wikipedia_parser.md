@@ -120,7 +120,7 @@ u'title': {
 ```
 ## Motivation
 
-[wtf_wikipedia](https://github.com/spencermountain/wtf_wikipedia) and [mwparserfromhell](https://github.com/earwig/mwparserfromhell) were the best wikipedia parsers I could find.  This one is better. 
+<a href="https://github.com/spencermountain/wtf_wikipedia" target="_blank">wtf_wikipedia</a> and <a href="https://github.com/earwig/mwparserfromhell" target="blank">mwparserfromhell</a> were the best wikipedia parsers I could find.  This one is better. 
 
 ## Installation
 

@@ -32,7 +32,7 @@
       <pubDate>Mon, 16 Nov 2015 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/books/TheMasterAlgorithm/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://homes.cs.washington.edu/~pedrod/&#34;&gt;Pedro Domingos&lt;/a&gt; gives a valient effort to bring the complexity and potential of machine learning (ML) to the average jane.  He fails, but succeeds in telling the compelling story of ML algorithms to this point and to where they may be going.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://homes.cs.washington.edu/~pedrod/&#34;&gt;Pedro Domingos&lt;/a&gt; gives a valient effort to bring the complexity and potential of machine learning (ML) to the average jane.  He fails, but succeeds in telling the compelling story of ML algorithms to this point, and to where they may be going.&lt;/p&gt;
 
 &lt;p&gt;I recommend this &lt;a href=&#34;http://www.amazon.com/The-Master-Algorithm-Ultimate-Learning/dp/0465065708&#34;&gt;book&lt;/a&gt; to everyone who has an, at least, a peripheral understanding of data science.  Domingos does more than just skim the major algorithms.  He weaves their stories together in a coherent journey toward the ultimate algorithm.&lt;/p&gt;
 </description>
@@ -72,7 +72,7 @@
       <guid>http://ojones.github.io/blog/books/Superintelligence/</guid>
       <description>&lt;p&gt;You would think that a tech &lt;a href=&#34;http://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2&#34;&gt;book&lt;/a&gt; with such a cool title on such an interesting subject coudn&amp;rsquo;t possibly lose.  But you&amp;rsquo;ll be snoring at the 40% mark.  It turns out that detailed hypotheticals about exactly how and when the world will be destroyed is not fun.  Who knew?&lt;/p&gt;
 
-&lt;p&gt;The one saving grace that makes the whole thing worth it is the movie &amp;ldquo;Ex Machina,&amp;rdquo; which should be required after every reading.  It is doubtful that you will understand the plot of the movie without the background &lt;a href=&#34;http://www.nickbostrom.com/&#34;&gt;Nick Bostrom&lt;/a&gt; provides.&lt;/p&gt;
+&lt;p&gt;The one saving grace that makes the whole thing worth it is the movie &amp;ldquo;Ex Machina,&amp;rdquo; which should be required after every reading.  It is doubtful that one could understand the subplot without the background &lt;a href=&#34;http://www.nickbostrom.com/&#34;&gt;Nick Bostrom&lt;/a&gt; provides.&lt;/p&gt;
 
 &lt;p&gt;Dry as it may be, it&amp;rsquo;s the only book I&amp;rsquo;ve found that tackles the dangers of AI seriously.&lt;/p&gt;
 </description>
@@ -86,7 +86,7 @@
       <guid>http://ojones.github.io/blog/books/5DysfunctionsOfATeam/</guid>
       <description>&lt;p&gt;While attending a conference, I got the chance to see &lt;a href=&#34;http://www.tablegroup.com/pat/&#34;&gt;Patrick Lencioni&lt;/a&gt; speak about teams and their common dysfunctions.  I was impressed in the true sense of the word, and am confident he was the crowd favorite.&lt;/p&gt;
 
-&lt;p&gt;Although he made referenced his &lt;a href=&#34;http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1454836598&amp;amp;sr=1-1&amp;amp;keywords=5+disfunction%27s+of+a+team&#34;&gt;book&lt;/a&gt; as a fable, his presentation also seemed to have just given away all of the valuable facts.  What in the world was the point of reading his work of fiction now?&lt;/p&gt;
+&lt;p&gt;Although he made referenced to his &lt;a href=&#34;http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1454836598&amp;amp;sr=1-1&amp;amp;keywords=5+disfunction%27s+of+a+team&#34;&gt;book&lt;/a&gt; as a fable, the presentation clearly gave away all the valuable facts.  So what was the point of reading his work of fiction now?&lt;/p&gt;
 
 &lt;p&gt;We learn more by story than fact, and Lencioni&amp;rsquo;s fable is yet another credit to that truth.  With preconceived notions that this book would not be worth the time, I picked it up off my manager&amp;rsquo;s desk just to glance.  I didn&amp;rsquo;t put it back down until it was finished.&lt;/p&gt;
 
@@ -132,11 +132,11 @@
       <pubDate>Sat, 18 Oct 2014 19:25:22 -0800</pubDate>
       
       <guid>http://ojones.github.io/blog/books/HowGoogleWorks/</guid>
-      <description>&lt;p&gt;How do you compete for fame with Larry Page and Sergey Brin?  &lt;a href=&#34;https://en.wikipedia.org/wiki/Eric_Schmidt&#34;&gt;Eric Schmidt&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Jonathan_Rosenberg_(technologist&#34;&gt;Jonathan Rosenber&lt;/a&gt;), with the help of &lt;a href=&#34;https://www.linkedin.com/in/alaneagle&#34;&gt;Alan Eagle&lt;/a&gt;, take a stab at in their book on how Google works, titled: How Google Works.&lt;/p&gt;
+      <description>&lt;p&gt;How do you compete for fame with Larry Page and Sergey Brin?  &lt;a href=&#34;https://en.wikipedia.org/wiki/Eric_Schmidt&#34;&gt;Eric Schmidt&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Jonathan_Rosenberg_(technologist&#34;&gt;Jonathan Rosenber&lt;/a&gt;), with the help of &lt;a href=&#34;https://www.linkedin.com/in/alaneagle&#34;&gt;Alan Eagle&lt;/a&gt;, take a stab at in their book on how Google works, entitled: How Google Works.&lt;/p&gt;
 
 &lt;p&gt;This &lt;a href=&#34;http://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344&#34;&gt;book&lt;/a&gt; succeeds as an insider perspective about Google.  But as a professional engineer you can&amp;rsquo;t help but wonder what parts are legit, and what is just self congratulating wishful thinking.&lt;/p&gt;
 
-&lt;p&gt;The employment strategy of hiring the best is a big theme.  The authors introduce their revolutionary notion of a &amp;ldquo;smart creative.&amp;rdquo;  One, she is a brilliant worker who doesn&amp;rsquo;t have to have a PHd, but could easily get one if she wanted to.  Two, she is passionate about her crafts, of which she has many.  To paraphrase a couple of criteria.&lt;/p&gt;
+&lt;p&gt;The employment strategy of hiring the best is a big theme.  The authors introduce their revolutionary notion of a &amp;ldquo;smart creative.&amp;rdquo;  One, she is a brilliant worker who doesn&amp;rsquo;t have to have a PhD, but could easily get one if she wanted to.  Two, she is passionate about her crafts, of which she has many.  To paraphrase a couple of criteria.&lt;/p&gt;
 
 &lt;p&gt;The authors paint a pretty picture of the smart startup that broke all the rules to redefine the game.  And in the face of Google&amp;rsquo;s success, who&amp;rsquo;s to say they are wrong.  Skepticism aside, it&amp;rsquo;s a great industry perspective done by a great team.&lt;/p&gt;
 </description>

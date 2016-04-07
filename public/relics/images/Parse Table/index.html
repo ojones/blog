@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Parse Table</title>
+    <link href="/static/prism.css" rel="stylesheet" />
+    <link href="/static/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>demo: <a href="https://github.com/ojones/html_table_parser" target="blank">html_table_parser</a></h1>
+      <form action="/" method="post">
+       
+        <h3>Paste your html table:</h3>
+        <textarea name="tabletext" rows="8" cols="50">&lt;table> &lt;tr> &lt;th>Number&lt;/th> &lt;th>First Name&lt;/th> &lt;th>Last Name&lt;/th> &lt;th>Points&lt;/th> &lt;/tr> &lt;tr> &lt;td>1&lt;/td> &lt;td>Eve&lt;/td> &lt;td>Jackson&lt;/td> &lt;td>94&lt;/td> &lt;/tr> &lt;/table>
+        </textarea>
+        <input type="submit" class="myButton" value="Parse">
+      </form>
+
+      <div class="resultbox">
+        <h3>2d array with: <code class="api">make2d</code> 
+          <span class="btnviews">
+            <span class="btnresults selected">results</span> / <span class="btncode">code</span>
+          </span>
+        </h3>
+        <div class="codebox">
+        <pre>
+<code class="viewresults visible language-python">
+</code><code class="viewcode hidden language-python">from bs4 import BeautifulSoup as bs
+from html_table_parser import parser_functions as parser
+from pprint import pformat as display
+
+soup = bs(html, 'html.parser')
+table = soup.find('table')
+
+display( parser.make2d(table) )</code></pre>
+        </div>
+      </div>
+
+      <div class="resultbox">
+        <h3>Headings list with: <code class="api">find_headings</code>
+          <span class="btnviews">
+            <span class="btnresults selected">results</span> / <span class="btncode">code</span>
+          </span>
+        </h3>
+        <div class="codebox">
+        <pre>
+<code class="viewresults visible language-python">
+</code><code class="viewcode hidden language-python">display( parser.make2d(table) )</code></pre>
+        </div>
+      </div>
+
+      <div class="resultbox">
+        <h3>Column data with: <code class="api">twod_col_data</code>
+          <span class="btnviews">
+            <span class="btnresults selected">results</span> / <span class="btncode">code</span>
+          </span>
+        </h3>
+        <div class="codebox">
+        <pre>
+<code class="viewresults visible language-python">
+</code><code class="viewcode hidden language-python">display( parser.twod_col_data(twod_array, '') )</code></pre>
+        </div>
+      </div>
+
+      <div class="resultbox">
+        <h3>Dictionaries with: <code class="api">make_dict</code>
+          <span class="btnviews">
+            <span class="btnresults selected">results</span> / <span class="btncode">code</span>
+          </span>
+        </h3>
+        <div class="codebox">
+        <pre>
+<code class="viewresults visible language-python">
+</code><code class="viewcode hidden language-python"># using "1" here because data begins on 2nd row
+display( parser.make_dict(table, 1) )</code></pre>
+        </div>
+      </div>
+
+      <div class="resultbox">
+        <h3>Original table:</h3>
+        <div class="codebox">
+        <pre>
+<code class="language-html"></code>
+        </pre>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $(".btncode").click(function(){
+              $this = $(this)
+              $this.parent().children(".btnresults").removeClass("selected")
+              $this.addClass("selected")
+
+              $resultbox = $this.closest(".resultbox")
+              $pre = $resultbox.children(".codebox").children("pre")
+              $viewresults = $pre.children(".viewresults")
+              $viewcode = $pre.children(".viewcode")
+
+              $pre.addClass('lightbackground')
+              $viewresults.removeClass("visible")
+              $viewresults.addClass("hidden")
+              $viewcode.removeClass("hidden")
+              $viewcode.addClass("visible")
+
+          });
+          $(".btnresults").click(function(){
+              $this = $(this)
+              $this.parent().children(".btncode").removeClass("selected")
+              $this.addClass("selected")
+
+              $resultbox = $this.closest(".resultbox")
+              $pre = $resultbox.children(".codebox").children("pre")
+              $viewresults = $pre.children(".viewresults")
+              $viewcode = $pre.children(".viewcode")
+
+              $pre.removeClass('lightbackground')
+              $viewcode.removeClass("visible")
+              $viewcode.addClass("hidden")
+              $viewresults.removeClass("hidden")
+              $viewresults.addClass("visible")
+          });
+      });
+    </script>
+    <script src="../static/prism.js"></script>
+  </body>
+</html>
